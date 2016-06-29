@@ -107,6 +107,7 @@ h1, .h1 {
     margin: 0 0 30px 0;
     font-weight: normal;
     font-family: 'InterstateLigh';
+    line-height: normal;
 }
 
 h2, .h2 {
@@ -366,6 +367,38 @@ header .header-part1 .logo img{
 }
 
 .menu-mobile{
+    display: none;
+}
+
+.menu-top2-alternative-container .link-up{
+    margin-bottom: 30px;
+}
+
+.menu-top2-alternative{
+
+}
+
+.menu-top2-alternative ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-top2-alternative ul li a{
+    color: #7c7c7c;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 17px;
+    font-family: 'InterstateLigh';
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu-top2-alternative ul li a:hover{
+    color: #000;
+}
+
+.menu-top2-alternative ul li .hidden-descr{
     display: none;
 }
 /*---------/MENU-TOP 2------------*/
@@ -850,6 +883,42 @@ header .header-part1 .logo img{
     border: 1px solid #939393;
     box-shadow: 0 2px 20px 0 #b3b6ba;
 }
+
+/*catalog-management*/
+.catalog-management{
+    margin-top: 32px;
+    margin-bottom: -57px;
+}
+
+.catalog-management .item{
+    margin-bottom: 57px;
+    color: #000000;
+}
+
+.catalog-management .item .img-container img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+.catalog-management .item .name{
+    font-size: 20px;
+    font-family: 'InterstateLigh';
+    margin-top: 17px;
+}
+
+.catalog-management .item .work{
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.catalog-management .item .napravlenie{
+    font-size: 13px;
+}
 /*---------CATALOGS------------*/
 
 
@@ -859,30 +928,50 @@ header .header-part1 .logo img{
 }
 
 .tabs-controls {
-    background: #f8f8f8;
     overflow: hidden;
 }
 
 .tabs-controls > .item {
     float: left;
     cursor: pointer;
-    padding: 15px;
+    padding: 19px 5px 19px 0;
+    color: #a7a7a7;
+    font-family: 'InterstateLigh';
+    position: relative;
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+.tabs-controls > .item:before {
+    content: '/';
+    position: absolute;
+    top: 19px;
+    right: -6px;
+    color: #2b2b2b;
+}
+
+.tabs-controls > .item:last-child:before{
+    content: '';
 }
 
 .tabs-controls > .item.active {
-    background: #e7e7e7;
     cursor: default;
+    color: #2b2b2b;
+}
+
+.tabs-controls > .item:hover{
+    color: #2b2b2b;
 }
 
 .tabs-controls > .item,
-.tabs-controls > .item.active {
-    -webkit-transition: background 0.1s ease-in-out;
-    transition: background 0.1s ease-in-out;
+.tabs-controls > .item.active,
+.tabs-controls > .item.hover {
+    -webkit-transition: color 0.1s ease-in-out;
+    transition: color 0.1s ease-in-out;
 }
 
 .tabs-list > .item {
     display: none;
-    padding: 15px;
 }
 
 .tabs-list > .item.active {

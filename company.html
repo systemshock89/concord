@@ -1,0 +1,421 @@
+<!doctype html>
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="ru"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<base href="http://concord.modx/"/>-->
+    <base href="http://new.groupconcord.ru/"/>
+    <title>Главная</title>
+
+
+    <meta property="og:title" content="Главная">
+    <meta property="og:description" content="">
+
+
+    <link rel="shortcut icon" href="assets/template/img/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts Loader from fonts.css (HTML5 LocalStorage) -->
+    <script>!function () {
+        function e(e, t, n) {
+            e.addEventListener ? e.addEventListener(t, n, !1) : e.attachEvent && e.attachEvent("on" + t, n)
+        }
+
+        function t(e) {
+            return window.localStorage && localStorage.font_css_cache && localStorage.font_css_cache_file === e
+        }
+
+        function n() {
+            if (window.localStorage && window.XMLHttpRequest)if (t(o))a(localStorage.font_css_cache); else {
+                var n = new XMLHttpRequest;
+                n.open("GET", o, !0), e(n, "load", function () {
+                    4 === n.readyState && (a(n.responseText), localStorage.font_css_cache = n.responseText, localStorage.font_css_cache_file = o)
+                }), n.send()
+            } else {
+                var c = document.createElement("link");
+                c.href = o, c.rel = "stylesheet", c.type = "text/css", document.getElementsByTagName("head")[0].appendChild(c), document.cookie = "font_css_cache"
+            }
+        }
+
+        function a(e) {
+            var t = document.createElement("style");
+            t.innerHTML = e, document.getElementsByTagName("head")[0].appendChild(t)
+        }
+
+        var bases = document.getElementsByTagName("base"), baseHref = "";
+        bases.length > 0 && (baseHref = bases[0].href);
+        var o = baseHref + "assets/template/css/_fonts_modx.css";
+        window.localStorage && localStorage.font_css_cache || document.cookie.indexOf("font_css_cache") > -1 ? n() : e(window, "load", n)
+    }();</script>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="assets/template/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/template/css/bootstrap_col_15.css">
+    <link rel="stylesheet" href="assets/template/css/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.5.5/slicknav.min.css">
+    <link rel="stylesheet" href="assets/template/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/template/css/_common.css?ver=1.0.0">
+    <link rel="stylesheet" href="assets/template/css/_media.css?ver=1.0.0">
+</head>
+
+<body>
+
+<!--header-->
+<header>
+
+    <div class="header-desktop hidden-sm hidden-xs">
+        <div class="header-part1">
+            <div class="container clearfix">
+
+                <a href="/" class="logo">
+                    <img src="assets/template/img/logo.png" class="img-responsive"
+                         alt="Concord - Инновационные концепции бизнеса">
+                    <span class="text">инновационные концепции бизнеса</span>
+                </a>
+
+                <nav class="menu-top">
+                    <ul class="level1">
+                        <li class="first"><a href="about">О компании</a></li>
+                        <li><a href="biznes-portfel">Бизнес-портфель</a></li>
+                        <li><a href="soczialnyie-proektyi">Социальные проекты</a></li>
+                        <li><a href="partneram">Партнерам</a></li>
+                        <li><a href="press-czentr">Пресс-центр</a></li>
+                        <li><a href="zakupki">Закупки</a></li>
+                        <li><a href="contacts">Контакты</a></li>
+                        <li class="last"><a href="sandbox">Песочница</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="header-red-line"></div>
+        </div>
+
+        <div class="menu-top2-container">
+            <div class="container">
+                <nav class="menu-top2">
+
+
+                        <ul class="level1" row="">
+                            <div class="col-sm-2">
+                                <li class="first">
+                                    <a href="press-czentr/lenta">
+            <span class="img-container">
+                <img src="assets/template/img/menu-top-icons/1_cod_b.png" alt="Лента">
+            </span>
+                                        <span class="text">Лента</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="col-sm-2">
+                                <li>
+                                    <a href="press-czentr/konczepczii">
+            <span class="img-container">
+                <img src="assets/template/img/menu-top-icons/5_postavki_b.png" alt="Концепции">
+            </span>
+                                        <span class="text">Концепции</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="col-sm-2">
+                                <li>
+                                    <a href="press-czentr/stati">
+            <span class="img-container">
+   <img src="assets/template/img/menu-top-icons/5_postavki_b.png" alt="Концепции">            </span>
+                                        <span class="text">Статьи</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="col-sm-2">
+                                <li class="last">
+                                    <a href="press-czentr/kontakt-czentr">
+            <span class="img-container">
+   <img src="assets/template/img/menu-top-icons/5_postavki_b.png" alt="Концепции">            </span>
+                                        <span class="text">Контакт-центр</span>
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+
+                </nav>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="header-mobile visible-sm visible-xs">
+        <nav class="menu-mobile">
+            <ul class="">
+                <li class="first active"><a href="/">Главная</a></li>
+                <li><a href="about">О компании</a>
+                    <ul class="">
+                        <li class="first"><a href="about/o-kompanii">О компании</a></li>
+                        <li><a href="about/korporativnoe-upravlenie">Корпоративное управление</a></li>
+                        <li><a href="about/soczialnoe-upravlenie">Социальное управление</a></li>
+                        <li class="last"><a href="about/karera">Карьера</a></li>
+                    </ul>
+                </li>
+                <li><a href="biznes-portfel">Бизнес-портфель</a>
+                    <ul class="">
+                        <li class="first"><a href="biznes-portfel/finansyi">Финансы</a></li>
+                        <li><a href="biznes-portfel/postavki">Поставки</a></li>
+                        <li><a href="biznes-portfel/prodazhi">Продажи</a></li>
+                        <li><a href="biznes-portfel/informaczionnyie-texnologii">Информационные технологии</a></li>
+                        <li><a href="biznes-portfel/prodvizhenie">Продвижение</a></li>
+                        <li><a href="biznes-portfel/rekruting">Рекрутинг</a></li>
+                        <li><a href="biznes-portfel/development">Девелопмент</a>
+                            <ul class="">
+                                <li class="first"><a href="biznes-portfel/development/dlya-pokupatelej">Для
+                                    покупателей</a></li>
+                                <li><a href="biznes-portfel/development/uslugi-dlya-investorov">Услуги для
+                                    инвесторов</a></li>
+                                <li><a href="biznes-portfel/development/kommercheskaya-nedvizhimost">Коммерческая
+                                    недвижимость</a></li>
+                                <li class="last"><a href="biznes-portfel/development/investiczionnyie-proektyi">Инвестиционные
+                                    проекты</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="biznes-portfel/proizvodstvo">Производство</a></li>
+                        <li><a href="biznes-portfel/selskoe-xozyajstvo">Сельское хозяйство</a>
+                            <ul class="">
+                                <li class="first"><a href="biznes-portfel/selskoe-xozyajstvo/rastenievodstvo">Растениеводство</a>
+                                </li>
+                                <li><a href="biznes-portfel/selskoe-xozyajstvo/zhivotnovodstvo">Животноводство</a></li>
+                                <li><a href="biznes-portfel/selskoe-xozyajstvo/proizvodstvo-kormov">Производство
+                                    кормов</a></li>
+                                <li class="last"><a
+                                        href="biznes-portfel/selskoe-xozyajstvo/ryibolovstvo">Рыболовство</a></li>
+                            </ul>
+                        </li>
+                        <li class="last"><a href="biznes-portfel/stroitelstvo">Строительство</a>
+                            <ul class="">
+                                <li class="first"><a href="biznes-portfel/stroitelstvo/dizajn-i-proektirovanie">Дизайн и
+                                    проектирование</a></li>
+                                <li><a href="biznes-portfel/stroitelstvo/zhilishhno-grazhdanskoe-stroitelstvo">Жилищно-гражданское
+                                    строительство</a></li>
+                                <li><a href="biznes-portfel/stroitelstvo/transportnoe-stroiteltstvo">Транспортное
+                                    строительтство</a></li>
+                                <li><a href="biznes-portfel/stroitelstvo/promyishlennoe-stroiteltstvo">Промышленное
+                                    строительтство</a></li>
+                                <li><a href="biznes-portfel/stroitelstvo/selskoe-stroiteltstvo">Сельское
+                                    строительтство</a></li>
+                                <li><a href="biznes-portfel/stroitelstvo/restavracziya">Реставрация</a></li>
+                                <li class="last"><a
+                                        href="biznes-portfel/stroitelstvo/blagoustrojstvo">Благоустройство</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="soczialnyie-proektyi">Социальные проекты</a>
+                    <ul class="">
+                        <li class="first"><a href="soczialnyie-proektyi/blagotvoritelnyie-fondyi">Благотворительные
+                            фонды</a></li>
+                        <li><a href="soczialnyie-proektyi/obrazovanie">Образование</a></li>
+                        <li><a href="soczialnyie-proektyi/obshhestvennyie-organizaczii">Общественные организации</a>
+                        </li>
+                        <li class="last"><a href="soczialnyie-proektyi/partnerstvo">Партнерство</a></li>
+                    </ul>
+                </li>
+                <li><a href="partneram">Партнерам</a>
+                    <ul class="">
+                        <li class="first"><a href="partneram/o-partnerstve">О партнерстве</a></li>
+                        <li><a href="partneram/programmyi">Программы</a></li>
+                        <li class="last"><a href="partneram/stat-partnerom">Стать партнером</a></li>
+                    </ul>
+                </li>
+                <li><a href="press-czentr">Пресс-центр</a>
+                    <ul class="">
+                        <li class="first"><a href="press-czentr/lenta">Лента</a></li>
+                        <li><a href="press-czentr/konczepczii">Концепции</a></li>
+                        <li><a href="press-czentr/stati">Статьи</a></li>
+                        <li class="last"><a href="press-czentr/kontakt-czentr">Контакт-центр</a></li>
+                    </ul>
+                </li>
+                <li><a href="zakupki">Закупки</a></li>
+                <li><a href="contacts">Контакты</a></li>
+                <li class="last"><a href="sandbox">Песочница</a>
+                    <ul class="">
+                        <li class="first"><a href="sandbox/razdel-vtorogo-urovnya-1">Раздел второго уровня 1</a></li>
+                        <li><a href="sandbox/razdel-vtorogo-urovnya-2">Раздел второго уровня 2</a></li>
+                        <li class="last"><a href="sandbox/razdel-vtorogo-urovnya-3">Раздел второго уровня 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <a class="logo" href="/" title="На Главную"><img src="assets/template/img/logo.png"
+                                                         alt="Concord - Инновационные концепции бизнеса"></a>
+        <a href="tel:+74952118187" class="phone" title="Позвонить">8 (495) 211-81-87</a>
+        <a href="contacts" class="header-mobile-button"></a>
+    </div>
+
+</header>
+
+
+<div id="fullpage">
+
+
+    <section class="section"
+
+             data-tooltip="Главная"
+             data-anchor="index">
+
+        <div class="container">
+
+            <div class="tabs block">
+                <div class="tabs-controls">
+                    <div class="item active">Президент</div>
+                    <div class="item">Менеджмент</div>
+                </div>
+                <div class="tabs-list">
+                    <div class="item active">
+                       <div class="catalog-management">
+                           <div class="row">
+
+                               <div class="col15-lg3-3 col-md-3 col-sm-4">
+                                   <div class="item">
+                                       <div class="img-container">
+                                           <img src="assets/template/img/empty_icon_article.png" alt="" class="img-responsive img-circle">
+                                       </div>
+                                       <div class="name">Hrach Tovmasyan</div>
+                                       <div class="work">CEO / Бизнес-единица</div>
+                                       <div class="napravlenie">«Финансы»</div>
+                                   </div>
+                               </div>
+
+                               <div class="col15-lg3-3 col-md-3 col-sm-4">
+                                   <div class="item">
+                                       <div class="img-container">
+                                           <img src="assets/template/img/empty_icon_article.png" alt="" class="img-responsive img-circle">
+                                       </div>
+                                       <div class="name">Hrach Tovmasyan</div>
+                                       <div class="work">CEO / Бизнес-единица</div>
+                                       <div class="napravlenie">«Финансы»</div>
+                                   </div>
+                               </div>
+
+                               <div class="col15-lg3-3 col-md-3 col-sm-4">
+                                   <div class="item">
+                                       <div class="img-container">
+                                           <img src="assets/template/img/empty_icon_article.png" alt="" class="img-responsive img-circle">
+                                       </div>
+                                       <div class="name">Hrach Tovmasyan</div>
+                                       <div class="work">CEO / Бизнес-единица</div>
+                                       <div class="napravlenie">«Финансы»</div>
+                                   </div>
+                               </div>
+
+                               <div class="col15-lg3-3 col-md-3 col-sm-4">
+                                   <div class="item">
+                                       <div class="img-container">
+                                           <img src="assets/template/img/empty_icon_article.png" alt="" class="img-responsive img-circle">
+                                       </div>
+                                       <div class="name">Hrach Tovmasyan</div>
+                                       <div class="work">CEO / Бизнес-единица</div>
+                                       <div class="napravlenie">«Финансы»</div>
+                                   </div>
+                               </div>
+
+                               <div class="col15-lg3-3 col-md-3 col-sm-4">
+                                   <div class="item">
+                                       <div class="img-container">
+                                           <img src="assets/template/img/empty_icon_article.png" alt="" class="img-responsive img-circle">
+                                       </div>
+                                       <div class="name">Hrach Tovmasyan</div>
+                                       <div class="work">CEO / Бизнес-единица</div>
+                                       <div class="napravlenie">«Финансы»</div>
+                                   </div>
+                               </div>
+
+                               <div class="col15-lg3-3 col-md-3 col-sm-4">
+                                   <div class="item">
+                                       <div class="img-container">
+                                           <img src="assets/template/img/empty_icon_article.png" alt="" class="img-responsive img-circle">
+                                       </div>
+                                       <div class="name">Hrach Tovmasyan</div>
+                                       <div class="work">CEO / Бизнес-единица</div>
+                                       <div class="napravlenie">«Финансы»</div>
+                                   </div>
+                               </div>
+
+                               <div class="col15-lg3-3 col-md-3 col-sm-4">
+                                   <div class="item">
+                                       <div class="img-container">
+                                           <img src="assets/template/img/empty_icon_article.png" alt="" class="img-responsive img-circle">
+                                       </div>
+                                       <div class="name">Hrach Tovmasyan</div>
+                                       <div class="work">CEO / Бизнес-единица</div>
+                                       <div class="napravlenie">«Финансы»</div>
+                                   </div>
+                               </div>
+
+                               <div class="col15-lg3-3 col-md-3 col-sm-4">
+                                   <div class="item">
+                                       <div class="img-container">
+                                           <img src="assets/template/img/empty_icon_article.png" alt="" class="img-responsive img-circle">
+                                       </div>
+                                       <div class="name">Hrach Tovmasyan</div>
+                                       <div class="work">CEO / Бизнес-единица</div>
+                                       <div class="napravlenie">«Финансы»</div>
+                                   </div>
+                               </div>
+
+                           </div>
+                       </div>
+                    </div>
+                    <div class="item">
+                        <b>manage</b><br>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+</div>
+
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="copyright">© 2016 concord</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="counters"></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- scripts -->
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="assets/template/js/lib/scrolloverflow.min.js"></script>
+<script src="assets/template/js/lib/jquery.fullpage.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.5.5/jquery.slicknav.min.js"></script>
+<script src="assets/template/js/lib/jquery.fancybox.js"></script>
+<script src="assets/template/js/lib/jquery.standart_load.js"></script>
+<script src="assets/template/js/lib/jquery.standart_window.js"></script>
+<script src="assets/template/js/app/_common.js?ver=1.0.0"></script>
+<!-- /scripts -->
+
+</body>
+</html>
+
+
+

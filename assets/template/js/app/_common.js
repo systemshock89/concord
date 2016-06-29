@@ -6,7 +6,6 @@
 $(function () {
 
 
-
     var navigationTooltipsArr = [],
         anchorsArr = [];
     $('.section').each(function(n){
@@ -78,6 +77,7 @@ $(function () {
     });
     //Устанавливает отступ от бокового меню для контента
 
+
     /* Красная линия в верхнем меню */
     var header_red_line = $('.header-red-line'),
         red_line_current_width, //текущее положение красной линии
@@ -148,6 +148,26 @@ $(function () {
     /* /Красная линия в верхнем меню */
 
 
+    /* Альтернативное меню второго уровня на стр. Бизнес-портфель и Соц.проекты - с всплыв. кратиким описанием*/
+    if( $('.menu-top2-alternative-container').size()>0 ){
+        var menu_top2_alternative_description_block = $('.menu-top2-alternative-description-block');
+
+        $('.menu-top2-alternative ul li a').hover( //при наведении на пункт меню
+            function() {
+                menu_top2_alternative_description_block.html(''); //чистим блок
+                menu_top2_alternative_description_block.hide(); // скрываем его
+                $(this).parent().find('.hidden-descr .item').clone().prependTo($('.menu-top2-alternative-description-block')); // клонируем в него нужное описание
+                $('.menu-top2-alternative-description-block').stop().fadeIn(); //и плавно показываем
+                $.fn.fullpage.reBuild(); // произведем пересчет плагина, чтоб была нормальная длина скролла
+            },
+            function() {
+                menu_top2_alternative_description_block.fadeOut(); // плавно скрываем блок
+            }
+        );
+    }
+    /* /Альтернативное меню второго уровня на стр. Бизнес-портфель и Соц.проекты - с всплыв. кратиким описанием*/
+
+
     /* Адаптивное верхнее меню */
     try {
         var $container = $('body');
@@ -176,6 +196,7 @@ $(function () {
 
     // задаем одинаковую высоту для элементов
     $(".article-list .text-container").matchHeight();
+    $(".catalog-management .item").matchHeight();
     // /задаем одинаковую высоту для элементов
     
 
@@ -274,6 +295,27 @@ $(function () {
         $(this).find('.count').html(articleImg + articleImgLink); //скаладываем и записываем
     });
     /* /Подсчет кол-ва картинок в ленте */
+
+
+    /* Табы */
+    $('.tabs-controls > .item').on('click', function (e) {
+        e.preventDefault();
+
+        var item = $(this),
+            contentItem = $(this).parent().parent().find('.tabs-list > .item'),
+            itemPosition = item.index();
+
+        contentItem.eq(itemPosition)
+            .add(item)
+            .addClass('active')
+            .siblings()
+            .removeClass('active');
+
+        $.fn.fullpage.reBuild(); // произведем пересчет плагина, чтоб была нормальная длина скролла
+    });
+    /* /Табы */
+
+
 
 }); // END READY
 

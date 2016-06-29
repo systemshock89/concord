@@ -1,7 +1,7 @@
 /* version: 1.0.1 */
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1310px) {
+@media only screen and (max-width : 1309px) {
 
     .menu-top ul li a{
         padding: 43px 6px;
@@ -313,6 +313,24 @@
     .article-inner .article-pic-and-video .video iframe{
         width: 100%;
         height: auto;
+    }
+
+    .menu-top2-alternative{
+        text-align: center;
+    }
+
+    .menu-top2-alternative ul{
+        display: inline-block;
+        text-align: left;
+    }
+
+    .catalog-management{
+        text-align: center;
+    }
+
+    .catalog-management .item{
+        text-align: left;
+        display: inline-block;
     }
 
 }
