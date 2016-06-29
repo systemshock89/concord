@@ -110,6 +110,11 @@ h1, .h1 {
     line-height: normal;
 }
 
+h1 span, .h1 span{
+    font-size: 14px;
+    font-family: 'Roboto', serif;
+}
+
 h2, .h2 {
     font-size: 1.5em;
     margin: 0 0 0.83em 0;
@@ -1436,6 +1441,24 @@ a.fancybox-thumb:hover .img-container:before {
     /*-ms-transform: translate3d(0,0,0);*/
 }
 
+.president-container .h1{
+    margin-top: 20px;
+}
+
+.president .rospis{
+    padding-top: 45px;
+    display: block;
+}
+
+.president-man{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: url('../img/man.png');
+    width: 443px;
+    height: 741px;
+    z-index: 999;
+}
 /*---------/OTHER STYLES------------*/
 
 
