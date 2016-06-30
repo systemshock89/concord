@@ -180,6 +180,99 @@ h4, .h4 {
 /*---------/STANDARD STYLES------------*/
 
 
+
+
+/*---------FULLPAGE.JS STYLES------------*/
+#fp-nav{
+    display: none;
+}
+
+.fp-tooltip{
+    width: auto!important;
+    opacity: 1!important;
+}
+
+#fp-nav{
+    background: #fff;
+    border-radius: 8px;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span{
+    background: #8b8b8b;
+}
+
+#fp-nav ul li .fp-tooltip{
+    color: #8b8b8b;
+    font-size: 12px;
+    line-height: 20px;
+    background: #fff;
+    padding: 0 0 0 6px;
+    max-width: inherit;
+}
+
+#fp-nav ul li:hover .fp-tooltip,
+#fp-nav ul li a.active + .fp-tooltip{
+    font-size: 15px;
+    color: #000;
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover span{
+    background: #000;
+}
+
+.section .fp-tableCell{
+    display: block;
+}
+
+.section.center .fp-tableCell{
+    display: table-cell;
+}
+
+.iScrollIndicator{
+    cursor: pointer;
+}
+
+.section{
+    padding-top: 272px;
+}
+
+.section.center{
+    padding-top: 222px;
+}
+
+.index-page .section.center{
+    padding-top: 105px;
+}
+
+.section.my-marker ul{
+    list-style: none;
+}
+
+.section.my-marker ul li{
+    position:relative;
+}
+
+.section.my-marker ul li:before{
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section-top{
+    margin-bottom: 40px;
+}
+
+#fp-nav ul li .fp-tooltip,
+#fp-nav ul li:hover .fp-tooltip{
+    transition: all 0.1s ease-in-out;
+    -webkit-transition:all 0.1s ease-in-out;
+}
+/*---------/FULLPAGE.JS STYLES------------*/
+
+
+
 /*---------HEADER------------*/
 header {
     position:fixed;
@@ -493,7 +586,7 @@ header .header-part1 .logo img{
 }
 /*---------/INDEX PAGE------------*/
 
-/*---------ARTICLE ------------*/
+/*---------ARTICLE PAGE------------*/
 /*article-list*/
 .article-list{
 
@@ -750,7 +843,109 @@ header .header-part1 .logo img{
     -webkit-transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out, opacity 0.1s ease-in-out, color 0.1s ease-in-out;
     transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out, opacity 0.1s ease-in-out,  color 0.1s ease-in-out;
 }
-/*---------/ARTICLE ------------*/
+/*---------/ARTICLE PAGE------------*/
+
+
+/*---------ZAKUPKI PAGE------------*/
+/*zakupki-list*/
+.zakupki-list{
+
+}
+
+.zakupki-list .item{
+    margin-bottom: 56px;
+}
+
+.zakupki-list .item .zakupki-list-container{
+
+}
+
+.zakupki-list .item .date{
+    display: block;
+    font-size: 14px;
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.zakupki-list .item .number{
+    padding: 1px 3px 1px 1px;
+    font-size: 12px;
+    color: #b5b5b5;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #b5b5b5;
+    margin-left: 5px;
+    line-height: 16px;
+}
+
+.zakupki-list .item .title{
+    font-family: 'InterstateLigh';
+    color: #000;
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 11px;
+    line-height: 28px;
+}
+
+.zakupki-list .item .title:hover{
+    text-decoration: underline;
+}
+
+.zakupki-list .item .text{
+    margin-top: 13px;
+    color: #6b6b6b;
+    line-height: 17px;
+}
+
+.zakupki-list .item .info{
+    color: #a7a7a7;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.zakupki-list .zakupki-list-container2{
+    margin-top: 12px;
+}
+
+.zakupki-list  .pupup-btn{
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../img/popup-btn1.png');
+    width: 17px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.zakupki-list  .pupup-btn:hover{
+    background: url('../img/popup-btn2.png');
+}
+/*---------/ZAKUPKI PAGE------------*/
+
+
+/*---------/OTHER PAGES------------*/
+.president-container .h1{
+    margin-top: 20px;
+}
+
+.president .rospis{
+    padding-top: 45px;
+    display: block;
+}
+
+.president-man{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: url('../img/man.png');
+    width: 443px;
+    height: 741px;
+    z-index: 999;
+}
+/*---------/OTHER PAGES------------*/
+
 
 /*---------CATALOGS------------*/
 /*catalog-products*/
@@ -1441,115 +1636,6 @@ a.fancybox-thumb:hover .img-container:before {
     /*-ms-transform: translate3d(0,0,0);*/
 }
 
-.president-container .h1{
-    margin-top: 20px;
-}
-
-.president .rospis{
-    padding-top: 45px;
-    display: block;
-}
-
-.president-man{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    background: url('../img/man.png');
-    width: 443px;
-    height: 741px;
-    z-index: 999;
-}
-/*---------/OTHER STYLES------------*/
-
-
-
-/*---------LANDING STYLES------------*/
-#fp-nav{
-    display: none;
-}
-
-.fp-tooltip{
-    width: auto!important;
-    opacity: 1!important;
-}
-
-#fp-nav{
-    background: #fff;
-    border-radius: 8px;
-}
-
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span{
-    background: #8b8b8b;
-}
-
-#fp-nav ul li .fp-tooltip{
-    color: #8b8b8b;
-    font-size: 12px;
-    line-height: 20px;
-    background: #fff;
-    padding: 0 0 0 6px;
-    max-width: inherit;
-}
-
-#fp-nav ul li:hover .fp-tooltip,
-#fp-nav ul li a.active + .fp-tooltip{
-    font-size: 15px;
-    color: #000;
-}
-
-#fp-nav ul li a.active span,
-#fp-nav ul li:hover span{
-    background: #000;
-}
-
-.section .fp-tableCell{
-    display: block;
-}
-
-.section.center .fp-tableCell{
-    display: table-cell;
-}
-
-.iScrollIndicator{
-    cursor: pointer;
-}
-
-.section{
-    padding-top: 272px;
-}
-
-.section.center{
-    padding-top: 222px;
-}
-
-.index-page .section.center{
-    padding-top: 105px;
-}
-
-.section.my-marker ul{
-    list-style: none;
-}
-
-.section.my-marker ul li{
-    position:relative;
-}
-
-.section.my-marker ul li:before{
-    margin-right: 10px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.section-top{
-    margin-bottom: 40px;
-}
-
-#fp-nav ul li .fp-tooltip,
-#fp-nav ul li:hover .fp-tooltip{
-    transition: all 0.1s ease-in-out;
-    -webkit-transition:all 0.1s ease-in-out;
-}
 
 /*simplesearch*/
 .sisea-results{
@@ -1594,5 +1680,5 @@ a.fancybox-thumb:hover .img-container:before {
     -webkit-transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out, opacity 0.1s ease-in-out, color 0.1s ease-in-out;
     transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out, opacity 0.1s ease-in-out,  color 0.1s ease-in-out;
 }
-/*---------/LANDING STYLES------------*/
+/*---------/OTHER STYLES------------*/
 
