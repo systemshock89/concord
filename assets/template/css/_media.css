@@ -282,21 +282,29 @@
         margin: 0 auto;
     }
 
-    .article-list .item{
+    .article-list .item,
+    .zakupki-list .item{
         margin-bottom: 45px;
     }
 
-    .article-list .item .title{
+    .article-list .item .title,
+    .zakupki-list .item .title{
         margin-top: 0;
     }
 
     .article-list .item .text,
+    .zakupki-list .item .text,
     .article-list .item .pressa{
         margin-top: 10px;
     }
 
-    .article-list  [class*="col-"]:last-child .item{
+    .article-list  [class*="col-"]:last-child .item,
+    .zakupki-list  [class*="col-"]:last-child .item{
         margin-bottom: 0;
+    }
+
+    .zakupki-list .zakupki-list-container2{
+        margin-top: 8px;
     }
 
     .article-inner .pressa{
