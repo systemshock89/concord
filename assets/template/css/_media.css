@@ -50,10 +50,18 @@
         padding-top: 50px;
     }
 
+    body.without-menu-top2 .section{
+        padding-top: 75px;
+    }
+
     header{
         height: 70px;
         z-index: 101;
         border-bottom: 1px solid #e50d0d;
+    }
+
+    body.without-menu-top2 header{
+        height: 50px;
     }
 
     .header-mobile{

@@ -499,6 +499,18 @@ header .header-part1 .logo img{
 .menu-top2-alternative ul li .hidden-descr{
     display: none;
 }
+
+body.without-menu-top2 .menu-top2-container{
+    display: none;
+}
+
+body.without-menu-top2 header{
+    height: 105px;
+}
+
+body.without-menu-top2 .section{
+    padding-top: 120px;
+}
 /*---------/MENU-TOP 2------------*/
 
 
