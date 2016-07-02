@@ -196,6 +196,7 @@ $(function () {
 
     // задаем одинаковую высоту для элементов
     $(".article-list .text-container").matchHeight();
+    $(".zakupki-list .item").matchHeight();
     $(".catalog-management .item").matchHeight();
     $(".president .col-sm-4").matchHeight();
     // /задаем одинаковую высоту для элементов

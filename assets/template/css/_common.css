@@ -43,7 +43,7 @@ p {
 }
 
 a {
-    color: #337ab7;
+    color: #333;
     text-decoration: underline;
 }
 
@@ -136,23 +136,25 @@ h4, .h4 {
 
 .button {
     display: inline-block;
-    padding: 10px 16px;
+    padding: 5px 12px;
     cursor: pointer;
     text-decoration: none;
-    color: #563d7c;
-    border: 1px solid #563d7c;
-    border-radius: 6px;
-    font-size: 16px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 14px;
     text-align: center;
+    text-transform: uppercase;
+    font-family: 'InterstateLigh';
 }
 
 .button:hover {
     color: #fff;
-    background-color: #6f5499;
+    background-color: #000;
 }
 
 .button:active {
-    color: #563d7c;
+    color: #000;
     background-color: transparent;
 }
 
@@ -500,16 +502,22 @@ header .header-part1 .logo img{
     display: none;
 }
 
-body.without-menu-top2 .menu-top2-container{
+body.without-menu-top2 .menu-top2-container,
+body.without-menu-top2-centered .menu-top2-container{
     display: none;
 }
 
-body.without-menu-top2 header{
+body.without-menu-top2 header,
+body.without-menu-top2-centered header{
     height: 105px;
 }
 
-body.without-menu-top2 .section{
+body.without-menu-top2-centered .section{
     padding-top: 120px;
+}
+
+body.without-menu-top2 .section{
+    padding-top: 170px;
 }
 /*---------/MENU-TOP 2------------*/
 
@@ -825,6 +833,7 @@ body.without-menu-top2 .section{
     text-decoration: none;
     display: inline-block;
     line-height: 21px;
+    margin-right: 35px;
 }
 
 .link-up:hover{
@@ -861,7 +870,7 @@ body.without-menu-top2 .section{
 /*---------ZAKUPKI PAGE------------*/
 /*zakupki-list*/
 .zakupki-list{
-
+    margin-top: 50px;
 }
 
 .zakupki-list .item{
@@ -881,7 +890,7 @@ body.without-menu-top2 .section{
 }
 
 .zakupki-list .item .number{
-    padding: 1px 3px 1px 1px;
+    padding: 1px 3px 1px 2px;
     font-size: 12px;
     color: #b5b5b5;
     border-radius: 4px;
@@ -890,6 +899,7 @@ body.without-menu-top2 .section{
     border: 1px solid #b5b5b5;
     margin-left: 5px;
     line-height: 16px;
+    margin-top: -4px;
 }
 
 .zakupki-list .item .title{
@@ -933,6 +943,70 @@ body.without-menu-top2 .section{
 
 .zakupki-list  .pupup-btn:hover{
     background: url('../img/popup-btn2.png');
+}
+
+/*zakupki-inner*/
+.zakupki-inner{
+
+}
+
+.zakupki-inner .article-top2{
+    margin-top: 23px;
+}
+
+.zakupki-inner .date{
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+}
+
+.zakupki-inner .info{
+    color: #a7a7a7;
+    display: inline-block;
+    margin-left: 42px;
+}
+
+.zakupki-inner h1{
+    margin-bottom: 29px;
+    margin-top: 2px;
+}
+
+.zakupki-inner .button{
+    margin-bottom: 31px;
+}
+
+.zakupki-inner .left-items{
+    
+}
+
+.zakupki-inner .left-items .item{
+    margin-bottom: 12px;
+}
+
+.zakupki-inner .left-items .item .title{
+    font-size: 20px;
+    color: #6b6b6b;
+}
+
+.zakupki-inner .left-items .item .text{
+    color: #b4b4b4;
+}
+
+.zakupki-inner .right-items{
+    color: #6b6b6b;
+    line-height: 18px;
+}
+
+.zakupki-inner .right-items .item{
+    margin-bottom: 15px;
+}
+
+.zakupki-inner .right-items .item .title{
+    font-weight: bold;
+}
+
+.zakupki-inner .right-items .item .text{
+
 }
 /*---------/ZAKUPKI PAGE------------*/
 
@@ -1657,7 +1731,6 @@ a.fancybox-thumb:hover .img-container:before {
 .search-form{
     display: inline-block;
     vertical-align: middle;
-    margin-left: 35px;
     position: relative;
 }
 

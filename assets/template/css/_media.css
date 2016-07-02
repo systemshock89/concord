@@ -50,7 +50,8 @@
         padding-top: 50px;
     }
 
-    body.without-menu-top2 .section{
+    body.without-menu-top2 .section,
+    body.without-menu-top2-centered .section{
         padding-top: 75px;
     }
 
@@ -60,7 +61,8 @@
         border-bottom: 1px solid #e50d0d;
     }
 
-    body.without-menu-top2 header{
+    body.without-menu-top2 header,
+    body.without-menu-top2-centered header{
         height: 50px;
     }
 
@@ -200,7 +202,8 @@
         text-align: left;
     }
 
-    .article-inner h1{
+    .article-inner h1,
+    .zakupki-inner h1{
         margin-bottom: 20px;
     }
 
