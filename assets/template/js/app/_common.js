@@ -33,7 +33,7 @@ $(function () {
         navigationTooltips: navigationTooltipsArr,
         // paddingTop: '222px',
         paddingBottom: '65px',
-        loopBottom: true,
+        // loopBottom: true,
         afterLoad: function(){
             $.fn.fullpage.reBuild(); // чтоб не зависал скролл
 
@@ -325,6 +325,44 @@ $(function () {
     });
     /* /Табы */
 
+
+    /* Фото президента */
+    function presidentPhoto() {
+        if( $('.president-man').size()>0 && $('.president-man').css('display')=='block' ) {
+
+            var presidentPhoto = $('.president-man'),
+                contentHeight = $(window).height() - $('header').height();
+
+            if( contentHeight < presidentPhoto.height() ){
+                presidentPhoto.height(presidentPhoto.height()-(presidentPhoto.height()-contentHeight));
+            } else{
+                // if( presidentPhoto.height()<= 765){
+                    presidentPhoto.height(presidentPhoto.height()+(contentHeight - presidentPhoto.height()));
+                // }
+            }
+
+
+
+            var contentPadding2, //отступ
+                withParametr2 = ($(document).width() - $('.section .container').outerWidth())/2, //параметр, вычесленный из ширины окна и бокового меню
+                presidentPhotoWidth = presidentPhoto.width() + 15; //ширина фото
+
+
+            if ( withParametr2 < 265 ){
+                contentPadding2 = presidentPhotoWidth - withParametr2;
+                $('.section .container').css('paddingRight',contentPadding2);
+            } else{
+                $('.section .container').css('paddingRight',15);
+            }
+
+
+        }
+    }
+    presidentPhoto();
+    $( window ).resize(function() {
+        presidentPhoto();
+    });
+    /* Фото президента */
 
 
 }); // END READY

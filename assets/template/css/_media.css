@@ -125,6 +125,10 @@
         display: none;
     }
 
+    .president-man{
+        display: none!important;
+    }
+
     .slicknav_menu {
         display: block;
         width: 100%;

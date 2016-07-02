@@ -19,8 +19,8 @@ function initialize() {
 
 
   var myOptions = {
-    center: new google.maps.LatLng(55.766066, 37.604371),
-    zoom: 14,
+    center: new google.maps.LatLng(55.761066, 37.5845371),
+    zoom: 13,
        disableDefaultUI: true,
      mapTypeControl: false,
    mapTypeControlOptions: {

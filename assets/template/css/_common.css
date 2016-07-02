@@ -189,6 +189,10 @@ h4, .h4 {
     display: none;
 }
 
+#fp-nav.right li:first-child{
+    display: none;
+}
+
 .fp-tooltip{
     width: auto!important;
     opacity: 1!important;
@@ -1048,11 +1052,10 @@ body.without-menu-top2 .section{
     position: fixed;
     bottom: 0;
     right: 0;
-    background: url('../img/man.png') bottom right no-repeat;
-    width: 602px;
-    height: 741px;
+    /*width: 602px;*/
+    /*max-width:602px;*/
+    width: auto;
     z-index: 999;
-    background-size: contain;
 }
 
 .contacts-page a{
