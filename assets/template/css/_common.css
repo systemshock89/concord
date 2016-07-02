@@ -992,6 +992,29 @@ body.without-menu-top2 .section{
     color: #b4b4b4;
 }
 
+.zakupki-inner .document{
+    display: inline-block;
+    text-decoration: none;
+    color: #6b6b6b;
+    position: relative;
+    padding-left: 13px;
+}
+
+.zakupki-inner .document:before {
+    content: url('../img/arrow-bottom.png');
+    position: absolute;
+    top: 2px;
+    left: 0px;
+}
+
+.zakupki-inner .document span{
+    border-bottom: 1px dashed #6b6b6b;
+}
+
+.zakupki-inner .document:hover span{
+    border-bottom: 1px dashed transparent;
+}
+
 .zakupki-inner .right-items{
     color: #6b6b6b;
     line-height: 18px;
