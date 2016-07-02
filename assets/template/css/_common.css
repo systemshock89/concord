@@ -1048,10 +1048,34 @@ body.without-menu-top2 .section{
     position: fixed;
     bottom: 0;
     right: 0;
-    background: url('../img/man.png');
-    width: 443px;
+    background: url('../img/man.png') bottom right no-repeat;
+    width: 602px;
     height: 741px;
     z-index: 999;
+    background-size: contain;
+}
+
+.contacts-page a{
+    text-decoration: none;
+}
+
+.contacts-page a:hover{
+    text-decoration: underline;
+}
+
+.contacts-page .adress a{
+    text-decoration: none!important;
+    color:#535353;
+    border-bottom: 1px dashed #535353;
+}
+
+.contacts-page .adress a:hover{
+    border-bottom: 1px dashed transparent;
+}
+
+.contacts-page .adress a.active{
+    border-bottom: 1px dashed transparent;
+    color: #e50d0d;
 }
 /*---------/OTHER PAGES------------*/
 
@@ -1679,10 +1703,10 @@ a.fancybox-thumb:hover .img-container:before {
     right: 45px;
 }
 
-#map {
+.map {
+    height: 370px;
     width: 100%;
-    min-height: 450px;
-    margin-top: 10px;
+    background: #f9f9f9;
     margin-bottom: 35px;
 }
 

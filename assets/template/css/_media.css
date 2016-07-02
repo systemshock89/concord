@@ -352,6 +352,14 @@
         display: inline-block;
     }
 
+    .zakupki-inner .document{
+        margin-bottom: 12px;
+    }
+
+    .map{
+        height: 250px;
+    }
+
 }
 
 
