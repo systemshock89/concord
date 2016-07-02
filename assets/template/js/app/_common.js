@@ -199,7 +199,15 @@ $(function () {
     $(".catalog-management .item").matchHeight();
     $(".president .col-sm-4").matchHeight();
     // /задаем одинаковую высоту для элементов
-    
+
+
+    //SVG Fallback
+    if(!Modernizr.svg) {
+        $(".menu-top2 img[src*='svg']").attr("src", function() {
+            return $(this).attr("src").replace(".svg", ".png");
+        });
+    }
+
 
     // Отменить перетаскивание картинок и ссылок
     $("img, a").on("dragstart", function (event) {
