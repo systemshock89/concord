@@ -336,17 +336,14 @@ $(function () {
             if( contentHeight < presidentPhoto.height() ){
                 presidentPhoto.height(presidentPhoto.height()-(presidentPhoto.height()-contentHeight));
             } else{
-                // if( presidentPhoto.height()<= 765){
+                if( presidentPhoto.width()<= 500){
                     presidentPhoto.height(presidentPhoto.height()+(contentHeight - presidentPhoto.height()));
-                // }
+                }
             }
-
-
 
             var contentPadding2, //отступ
                 withParametr2 = ($(document).width() - $('.section .container').outerWidth())/2, //параметр, вычесленный из ширины окна и бокового меню
                 presidentPhotoWidth = presidentPhoto.width() + 15; //ширина фото
-
 
             if ( withParametr2 < 265 ){
                 contentPadding2 = presidentPhotoWidth - withParametr2;

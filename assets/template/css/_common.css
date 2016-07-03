@@ -1050,10 +1050,10 @@ body.without-menu-top2 .section{
 
 .president-man{
     position: fixed;
-    bottom: 0;
+    bottom: 65px;
     right: 0;
     /*width: 602px;*/
-    /*max-width:602px;*/
+    /*max-width:500px;*/
     width: auto;
     z-index: 999;
 }
