@@ -1080,6 +1080,38 @@ body.without-menu-top2 .section{
     border-bottom: 1px dashed transparent;
     color: #e50d0d;
 }
+
+.template-img{
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.template-img.left{
+    float: left;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.template-snoska{
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px dashed #333;
+    max-width: 40%;
+    padding: 5px;
+}
+
+.template-snoska.left{
+    float: left;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.template-snoska p:first-child,
+.template-snoska p:last-child{
+    margin-bottom: 0;
+}
 /*---------/OTHER PAGES------------*/
 
 
