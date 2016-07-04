@@ -1052,9 +1052,8 @@ body.without-menu-top2 .section{
     position: fixed;
     bottom: 65px;
     right: 0;
-    /*width: 602px;*/
-    /*max-width:500px;*/
     width: auto;
+    height: 60%;
     z-index: 999;
 }
 

@@ -129,6 +129,10 @@
         display: none!important;
     }
 
+    .president-sm{
+        margin: 10px auto;
+    }
+
     .slicknav_menu {
         display: block;
         width: 100%;
