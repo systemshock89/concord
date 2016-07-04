@@ -33,7 +33,7 @@ $(function () {
         navigationTooltips: navigationTooltipsArr,
         // paddingTop: '222px',
         paddingBottom: '65px',
-        // loopBottom: true,
+        loopBottom: true,
         afterLoad: function(){
             $.fn.fullpage.reBuild(); // чтоб не зависал скролл
 
