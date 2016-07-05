@@ -41,7 +41,8 @@ $(function () {
             if ( $('#fullpage .section').size()> 1 ){
                 $('#fp-nav').show();
             }
-            
+        },
+        afterRender: function(){
             //Устанавливает отступ от бокового меню для контента
             contentPadding();
         }
