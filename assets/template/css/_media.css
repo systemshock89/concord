@@ -69,7 +69,7 @@
     .header-mobile{
         position: relative;
         height: 50px;
-        background: #bcbcbc;
+        background: #fff;
     }
 
     .header-mobile:before {
@@ -80,9 +80,9 @@
         margin: 0;
         width: 59px;
         height: 50px;
-        border-left: 1px dotted #696969;
         background: url('../img/menu-lines.png') center no-repeat;
         border-radius: 0;
+        opacity: 0.2;
     }
 
     .header-mobile .logo{
@@ -104,21 +104,21 @@
         width: 60px;
         height: 50px;
         background: url('../img/menu-phone.png') center no-repeat;
-        border-left: 1px dotted #696969;
         top: 0;
         right: 120px;
         position: absolute;
         text-indent: -9999px;
+        opacity: 0.4;
     }
 
     .header-mobile .header-mobile-button{
         width: 60px;
         height: 50px;
         background: url('../img/menu-popup.png') center no-repeat;
-        border-left: 1px dotted #696969;
         top: 0;
         right: 60px;
         position: absolute;
+        opacity: 0.4;
     }
 
     .menu-top {
@@ -151,9 +151,9 @@
         margin: 0;
         width: 59px;
         height: 50px;
-        border-left: 1px dotted #696969;
         background: url('../img/menu-lines.png') center no-repeat;
         border-radius: 0;
+        opacity: 0.2;
     }
 
     .slicknav_btn.slicknav_open{
@@ -166,7 +166,7 @@
 
     .slicknav_nav {
         padding: 10px 0;
-        background: #bcbcbc;
+        background: #E1E1E1;;
         box-shadow: 1.5px 2.6px 3px rgba(24, 23, 24, 0.3);
     }
 
@@ -176,14 +176,32 @@
 
     .slicknav_nav a {
         border-radius: 0!important;
+        color: #333;
     }
 
-    .slicknav_nav a:hover,
-    .slicknav_nav li.selected > a,
     .slicknav_nav .slicknav_row:hover{
+        background: transparent;
+    }
+
+    .slicknav_nav .slicknav_arrow{
+        color: #333;
+    }
+
+    .slicknav_nav li.selected > a,
+    .slicknav_nav li.selected > a > a{
         background-color: #696969;
         color: #fff;
     }
+
+    .slicknav_nav .selected > .slicknav_row:hover{
+        background-color: #696969;
+    }
+
+    .slicknav_nav li.selected > a .slicknav_arrow{
+        color: #fff;
+    }
+
+
 
     .slicknav_open .slicknav_menu {
         height: 100%;
