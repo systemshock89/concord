@@ -45,6 +45,14 @@ $(function () {
         afterRender: function(){
             //Устанавливает отступ от бокового меню для контента
             contentPadding();
+
+            // класс, чтобы скрывать пункт бокового меню
+            $('.section').each(function(n){
+                if ( $(this).hasClass('hideTooltip')){
+                    $('#fp-nav li').eq(n).addClass('hideTooltip');
+                }
+            });
+
         }
     });
     // чтоб не зависал скролл
