@@ -255,6 +255,11 @@
         margin-right: 0;
     }
 
+    #contactform .item-form-element input,
+    #contactform .item-form-element textarea{
+        width: 100%!important;
+    }
+
 }
 
 
@@ -405,6 +410,14 @@
 
     .map{
         height: 250px;
+    }
+
+    #contactform{
+        margin-top: 15px;
+    }
+
+    .button-container{
+        text-align: center;
     }
 
 }
