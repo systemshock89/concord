@@ -67,9 +67,10 @@ input[type='email'],
 select {
     outline: 0;
     border: 1px solid #d0d4d8;
-    padding: 6px 30px 6px 12px;
+    padding: 6px 30px 6px 10px;
     -webkit-transition: border ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
     transition: border ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+    border-radius: 4px;
 }
 
 input[type='text']:focus,
@@ -87,6 +88,7 @@ textarea {
     padding: 6px 30px 6px 12px;
     height: 70px;
     border: 1px solid #d0d4d8;
+    border-radius: 4px;
 
     outline: none;
     -webkit-transition: border ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
@@ -136,7 +138,7 @@ h4, .h4 {
 
 .button {
     display: inline-block;
-    padding: 5px 12px;
+    padding: 5px 27px;
     cursor: pointer;
     text-decoration: none;
     color: #000;
@@ -146,6 +148,7 @@ h4, .h4 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'InterstateLigh';
+    background: transparent;
 }
 
 .button:hover {
@@ -1362,7 +1365,7 @@ body.without-menu-top2 .section{
 /*---------FORM------------*/
 .item-form-element {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     text-align: left;
 }
 
@@ -1498,6 +1501,18 @@ form .status_message {
     border-radius: 5px;
     border: 1px solid #F0F0B0;
     background: #FFF7BD;
+}
+
+#contactform .item-form-element input[type=text],
+#contactform .item-form-element input[type=tel],
+#contactform .item-form-element input[type=email]{
+    width: 235px;
+}
+
+#contactform .item-form-element textarea{
+    width: 455px;
+    height: 130px;
+    resize: vertical;
 }
 /*---------/FORM------------*/
 
