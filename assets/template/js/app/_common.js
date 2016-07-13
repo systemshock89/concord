@@ -263,7 +263,7 @@ $(function () {
                 },
                 // размытие
                 beforeLoad: function() {
-                    $('#overflow_div, footer').addClass('blur');
+                    $('header, #fullpage, footer').addClass('blur');
 
 
 
@@ -283,7 +283,7 @@ $(function () {
                     }
                 },
                 beforeClose: function() {
-                    $('#overflow_div, footer').removeClass('blur');
+                    $('header, #fullpage, footer').removeClass('blur');
                     $('.fancybox_pic_counter').remove();
                 }
             });
