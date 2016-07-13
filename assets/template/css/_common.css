@@ -152,8 +152,8 @@ h4, .h4 {
 }
 
 .button:hover {
-    color: #fff;
-    background-color: #000;
+    color: #e50d0d;
+    border: 1px solid #e50d0d;
 }
 
 .button:active {
