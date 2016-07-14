@@ -255,8 +255,9 @@
         margin-right: 0;
     }
 
-    #contactform .item-form-element input,
-    #contactform .item-form-element textarea{
+    .inner-form .item-form-element input,
+    .inner-form .item-form-element select,
+    .inner-form .item-form-element textarea{
         width: 100%!important;
     }
 
@@ -412,7 +413,7 @@
         height: 250px;
     }
 
-    #contactform{
+    .inner-form{
         margin-top: 15px;
     }
 

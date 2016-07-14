@@ -149,6 +149,7 @@ h4, .h4 {
     text-transform: uppercase;
     font-family: 'InterstateLigh';
     background: transparent;
+    outline: none;
 }
 
 .button:hover {
@@ -1503,13 +1504,22 @@ form .status_message {
     background: #FFF7BD;
 }
 
-#contactform .item-form-element input[type=text],
-#contactform .item-form-element input[type=tel],
-#contactform .item-form-element input[type=email]{
+.inner-form .item-form-element input[type=text],
+.inner-form .item-form-element input[type=tel],
+.inner-form .item-form-element input[type=email],
+.inner-form .item-form-element select{
     width: 235px;
 }
 
-#contactform .item-form-element textarea{
+.inner-form .item-form-element select{
+    color: #999;
+}
+
+.inner-form .item-form-element select option{
+    color: #333;
+}
+
+.inner-form .item-form-element textarea{
     width: 455px;
     height: 130px;
     resize: vertical;
@@ -1875,3 +1885,53 @@ a.fancybox-thumb:hover .img-container:before {
 }
 /*---------/OTHER STYLES------------*/
 
+
+/*file_upload custom*/
+.file_upload{
+    position: relative;
+    overflow: hidden;
+}
+.file_upload > button, .file_upload > div{
+    cursor: pointer
+}
+.file_upload > button{
+    float: right;
+    width: 8em;            /* example */
+    height: 100%
+}
+.file_upload > div{
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.file_upload input[type=file]{
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    padding: 10px 37px 10px 20px;
+}
+
+/* Making it beautiful */
+
+.file_upload{
+    display: inline-block;
+    color: #6b6b6b;
+    border-bottom: 1px dashed #6b6b6b;
+}
+
+.file_upload:hover{
+    border-bottom: 1px dashed transparent;
+}
+
+.file_upload.focus{
+    border: 1px solid #869791;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+.file_upload > button{
+    background: url('../img/strelka.png') center no-repeat;
+    width: 47px;
+    height: 45px;
+    outline: none;
+    border: none;
+}
+/*file_upload custom*/
