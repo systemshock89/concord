@@ -1524,6 +1524,32 @@ form .status_message {
     height: 130px;
     resize: vertical;
 }
+
+#partnerform .item-form-element input[type=text],
+#partnerform .item-form-element input[type=tel],
+#partnerform .item-form-element input[type=email],
+#partnerform .item-form-element select{
+    width: 310px;
+}
+
+.item-form-element-container{
+
+}
+
+.item-form-element-container .item-form-element{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#partnerform .item-form-element-container .item-form-element select{
+    width: 150px;
+}
+
+#partnerform .item-form-element-container .item-form-element:first-child select{
+    margin-right: 10px;
+}
+
+
 /*---------/FORM------------*/
 
 

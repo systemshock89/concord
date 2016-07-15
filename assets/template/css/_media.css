@@ -261,6 +261,18 @@
         width: 100%!important;
     }
 
+    #partnerform .item-form-element-container .item-form-element{
+        width: 100%;
+    }
+
+    #partnerform .item-form-element-container .item-form-element select{
+
+    }
+
+    #partnerform .item-form-element-container .item-form-element:first-child select{
+        margin-right: 4%;
+    }
+
 }
 
 
