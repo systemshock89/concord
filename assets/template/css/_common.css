@@ -1549,7 +1549,14 @@ form .status_message {
     margin-right: 10px;
 }
 
+.popup-form-container-hidden{
+    display: none;
+}
 
+.inner-form-popup{
+    background: #fff;
+    padding: 20px;
+}
 /*---------/FORM------------*/
 
 

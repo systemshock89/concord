@@ -428,3 +428,11 @@ var Message = function (message) { // Всплывающее сообщение 
 
     $('.window.message').standart_window();
 };
+
+
+//очистить высплывающую форму при открытии
+function clearForm($form) {
+    $form[0].reset();
+    $form.find('input').removeClass('error');
+    $form.find('.file_upload > div').html('Добавить файл (doc, .pdf, .jpg и .png)');
+}
