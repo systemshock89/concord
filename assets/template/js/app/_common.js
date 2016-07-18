@@ -377,6 +377,49 @@ $(function () {
 
     /* /file_upload custom*/
 
+
+    /* Всплывающие формы*/
+    // закупки
+    var popup_number,
+        zakupka_title,
+        zakupka_city;
+
+    if ( $('.zakupki-list').size()>0 ){
+        $( ".pupup-btn" ).click(function(e) {
+            e.preventDefault();
+            popup_number = $(this).closest('.item').find('.number').text();
+            zakupka_title = $(this).closest('.item').find('.title').text();
+            zakupka_city = $(this).closest('.item').find('.info').text();
+
+            $('#zakupkaform').find('.number-programm').text(popup_number);
+            $('#zakupkaform').find('.number-programm-input').val(popup_number);
+
+            $('#zakupkaform').find('.zakupka-title').text(zakupka_title);
+            $('#zakupkaform').find('.zakupka-title-input').val(zakupka_title);
+
+            $('#zakupkaform').find('.zakupka-city').text($.trim(zakupka_city));
+            $('#zakupkaform').find('.zakupka-city-input').val($.trim(zakupka_city));
+        });
+    }
+
+    if ( $('.zakupki-inner').size()>0 ){
+        $( ".zakupki-inner .button" ).click(function(e) {
+            e.preventDefault();
+            popup_number = $(this).closest('.zakupki-inner').find('.number').text();
+            zakupka_title = $(this).closest('.zakupki-inner').find('h1').text();
+            zakupka_city = $(this).closest('.zakupki-inner').find('.info').text();
+
+            $('#zakupkaform').find('.number-programm').text(popup_number);
+            $('#zakupkaform').find('.number-programm-input').val(popup_number);
+
+            $('#zakupkaform').find('.zakupka-title').text(zakupka_title);
+            $('#zakupkaform').find('.zakupka-title-input').val(zakupka_title);
+
+            $('#zakupkaform').find('.zakupka-city').text($.trim(zakupka_city));
+            $('#zakupkaform').find('.zakupka-city-input').val($.trim(zakupka_city));
+        });
+    }
+    /* /Всплывающие формы*/
     
 }); // END READY
 
