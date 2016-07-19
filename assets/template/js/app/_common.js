@@ -391,14 +391,14 @@ $(function () {
             zakupka_title = $(this).closest('.item').find('.title').text();
             zakupka_city = $(this).closest('.item').find('.info').text();
 
-            $('#zakupkaform').find('.number-programm').text(popup_number);
-            $('#zakupkaform').find('.number-programm-input').val(popup_number);
+            $('.inner-form-popup').find('.number-programm').text(popup_number);
+            $('.inner-form-popup').find('.number-programm-input').val(popup_number);
 
-            $('#zakupkaform').find('.zakupka-title').text(zakupka_title);
-            $('#zakupkaform').find('.zakupka-title-input').val(zakupka_title);
+            $('.inner-form-popup').find('.zakupka-title').text(zakupka_title);
+            $('.inner-form-popup').find('.zakupka-title-input').val(zakupka_title);
 
-            $('#zakupkaform').find('.zakupka-city').text($.trim(zakupka_city));
-            $('#zakupkaform').find('.zakupka-city-input').val($.trim(zakupka_city));
+            $('.inner-form-popup').find('.zakupka-city').text($.trim(zakupka_city));
+            $('.inner-form-popup').find('.zakupka-city-input').val($.trim(zakupka_city));
         });
     }
 
@@ -409,18 +409,18 @@ $(function () {
             zakupka_title = $(this).closest('.zakupki-inner').find('h1').text();
             zakupka_city = $(this).closest('.zakupki-inner').find('.info').text();
 
-            $('#zakupkaform').find('.number-programm').text(popup_number);
-            $('#zakupkaform').find('.number-programm-input').val(popup_number);
+            $('.inner-form-popup').find('.number-programm').text(popup_number);
+            $('.inner-form-popup').find('.number-programm-input').val(popup_number);
 
-            $('#zakupkaform').find('.zakupka-title').text(zakupka_title);
-            $('#zakupkaform').find('.zakupka-title-input').val(zakupka_title);
+            $('.inner-form-popup').find('.zakupka-title').text(zakupka_title);
+            $('.inner-form-popup').find('.zakupka-title-input').val(zakupka_title);
 
-            $('#zakupkaform').find('.zakupka-city').text($.trim(zakupka_city));
-            $('#zakupkaform').find('.zakupka-city-input').val($.trim(zakupka_city));
+            $('.inner-form-popup').find('.zakupka-city').text($.trim(zakupka_city));
+            $('.inner-form-popup').find('.zakupka-city-input').val($.trim(zakupka_city));
         });
     }
     /* /Всплывающие формы*/
-    
+
 }); // END READY
 
 
