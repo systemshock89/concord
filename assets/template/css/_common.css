@@ -531,6 +531,36 @@ body.without-menu-top2-centered .section{
 body.without-menu-top2 .section{
     padding-top: 170px;
 }
+
+
+.menu-top2-alternative-description-block .item .pressa{
+    margin-top: 12px;
+}
+
+.menu-top2-alternative-description-block .item .pressa .name{
+    display: inline-block;
+    vertical-align: middle;
+    color: #a7a7a7;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+
+.menu-top2-alternative-description-block .item .pressa .pressa-logo{
+    max-height: 20px;
+    max-width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px;
+    margin-bottom: 5px;
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
 /*---------/MENU-TOP 2------------*/
 
 
