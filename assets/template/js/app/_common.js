@@ -32,7 +32,7 @@ $(function () {
         navigationPosition: 'right',
         navigationTooltips: navigationTooltipsArr,
         // paddingTop: '222px',
-        paddingBottom: '65px',
+        paddingBottom: '30px',
         loopBottom: true,
         afterLoad: function(){
             $.fn.fullpage.reBuild(); // чтоб не зависал скролл

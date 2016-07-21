@@ -1,0 +1,667 @@
+<!doctype html>
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="ru"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="http://concord.modx/"/>
+    <!--<base href="http://new.groupconcord.ru/"/>-->
+    <title>IT</title>
+
+
+    <meta property="og:title" content="Главная">
+    <meta property="og:description" content="">
+
+
+    <link rel="shortcut icon" href="assets/template/img/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts Loader from fonts.css (HTML5 LocalStorage) -->
+    <script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)} var bases=document.getElementsByTagName("base"),baseHref="";bases.length>0&&(baseHref=bases[0].href); var o=baseHref+"assets/template/css/_fonts_modx.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="assets/template/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/template/css/bootstrap_col_15.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.5.5/slicknav.min.css">
+    <link rel="stylesheet" href="assets/template/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/template/css/_common.css?ver=1.0.0">
+    <link rel="stylesheet" href="assets/template/css/_media.css?ver=1.0.0">
+</head>
+
+<body>
+
+<!--header-->
+<header>
+
+    <div class="header-desktop hidden-sm hidden-xs">
+        <div class="header-part1">
+            <div class="container clearfix">
+                    <span class="microrazmetka" itemscope itemtype='http://schema.org/LocalBusiness'>
+       <meta itemprop='name' content='Concord'>
+       <span itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
+           <meta itemprop='postalCode' content='125375'>
+           <meta itemprop='addressLocality' content='Москва'>
+           <meta itemprop='streetAddress' content='Тверская улица, 18'>
+        </span>
+
+        <span itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
+           <meta itemprop='postalCode' content='123100'>
+           <meta itemprop='addressLocality' content='Москва'>
+           <meta itemprop='streetAddress' content='Пресненская наб., 12'>
+        </span>
+        <meta itemprop='telephone' content='8 (495) 211-81-87'>
+        <meta itemprop='openingHours' content='Пн-Пт 9:00-18:00' datetime='Mo-Fr 9:00-18:00'>
+        <meta itemprop='email' content='info@groupconcord.ru'>
+</span>
+
+                <a href="/" class="logo">
+                    <img src="assets/template/img/logo.png" class="img-responsive"
+                         alt="Concord - Инновационные концепции бизнеса">
+                    <span class="text">инновационные концепции бизнеса</span>
+                </a>
+
+                <nav class="menu-top">
+                    <ul class="level1">
+                        <li class="first"><a href="about">О компании</a></li>
+                        <li class="active"><a href="bp">Бизнес-портфель</a></li>
+                        <li><a href="social-projects">Социальные проекты</a></li>
+                        <li><a href="http://groupconcord.ru/partneram/o-partnerstve">Партнерам</a></li>
+                        <li><a href="http://groupconcord.ru/press-czentr/lenta">Пресс-центр</a></li>
+                        <li><a href="zakupki">Закупки</a></li>
+                        <li class="last"><a href="contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="header-red-line"></div>
+        </div>
+
+        <div class="menu-top2-container">
+            <div class="container">
+                <nav class="menu-top2">
+
+
+                    <ul class="level1" row>
+                        <div class="col-sm-2">
+                            <li class="first active selected">
+                                <a href="bp/it/datacenter">
+            <span class="img-container">
+                <img src="assets/content/images/icons/menu-top-empty-icon.svg" alt="Центр обработки данных">
+            </span>
+                                    <span class="text">Центр обработки данных</span>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-sm-2">
+                            <li>
+                                <a href="bp/it/informaczionnaya-bezopasnost">
+            <span class="img-container">
+                <img src="assets/content/images/icons/menu-top-empty-icon.png" alt="Информационная безопасность">
+            </span>
+                                    <span class="text">Информационная безопасность</span>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-sm-2">
+                            <li>
+                                <a href="bp/it/esystem">
+            <span class="img-container">
+                <img src="assets/content/images/icons/menu-top-empty-icon.png" alt="Энергоэффективные системы">
+            </span>
+                                    <span class="text">Энергоэффективные системы</span>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-sm-2">
+                            <li>
+                                <a href="bp/it/sda">
+            <span class="img-container">
+                <img src="assets/content/images/icons/menu-top-empty-icon.svg" alt="Сервисная архитектура">
+            </span>
+                                    <span class="text">Сервисная архитектура</span>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-sm-2">
+                            <li>
+                                <a href="bp/it/virtualizacziya">
+            <span class="img-container">
+                <img src="assets/content/images/icons/menu-top-empty-icon.svg" alt="Виртуализация">
+            </span>
+                                    <span class="text">Виртуализация</span>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-sm-2">
+                            <li class="last">
+                                <a href="bp/it/korporativnyie-informaczionnyie-sistemyi">
+            <span class="img-container">
+                <img src="assets/content/images/icons/menu-top-empty-icon.svg"
+                     alt="Корпоративные информационные системы">
+            </span>
+                                    <span class="text">Корпоративные информационные системы</span>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+
+
+                </nav>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="header-mobile visible-sm visible-xs">
+        <nav class="menu-mobile">
+            <ul class=""><li class="first"><a href="/" >Главная</a></li><li><a href="about" >О компании</a><ul class=""><li class="first"><a href="about/o-kompanii" >О компании</a></li><li><a href="about/korporativnoe-upravlenie" >Корпоративное управление</a><ul class=""><li class="first"><a href="about/korporativnoe-upravlenie/prezident" >Президент</a></li><li class="last"><a href="about/korporativnoe-upravlenie/menedzhment" >Менеджмент</a></li></ul></li><li><a href="about/soczialnoe-upravlenie" >Социальное управление</a></li><li class="last"><a href="about/karera" >Карьера</a></li></ul></li><li class="active"><a href="bp" >Бизнес-портфель</a><ul class=""><li class="first"><a href="http://groupconcord.ru/bp/development/dlya-pokupatelej" >Девелопмент</a><ul class=""><li class="first"><a href="bp/development/dlya-pokupatelej" >Проекты</a></li><li><a href="bp/development/uslugi-dlya-investorov" >Инвесторам</a></li><li><a href="bp/development/kommercheskaya-nedvizhimost" >Управление проектом</a></li><li class="last"><a href="bp/development/investiczionnyie-proektyi" >Консалтинг</a></li></ul></li><li><a href="http://groupconcord.ru/bp/finansyi/zpif" >Финансы</a><ul class=""><li class="first"><a href="bp/finansyi/zpif" >ЗПИФ</a></li><li><a href="bp/finansyi/pensionnyij-fond" >Пенсионный фонд</a></li><li class="last"><a href="bp/finansyi/investiczionnaya-kompaniya" >Консалтинг</a></li></ul></li><li><a href="http://groupconcord.ru/bp/supply/raw" >Поставки</a><ul class=""><li class="first"><a href="bp/supply/raw" >Сырье</a><ul class=""><li class="first"><a href="bp/supply/raw/lesomaterialyi" >Лесоматериалы</a></li></ul></li><li><a href="bp/supply/produkcziya" >Продукция</a><ul class=""><li class="first"><a href="bp/supply/produkcziya/metallurgiya" >Металлургия</a></li><li><a href="bp/supply/produkcziya/kabel" >Кабель</a></li><li><a href="bp/supply/produkcziya/plastik" >Пластикат</a></li><li><a href="bp/supply/produkcziya/bumaga" >Бумага</a></li><li><a href="bp/supply/produkcziya/marketingovyie-resheniya" >Маркетинговые решения</a></li><li><a href="bp/supply/produkcziya/mebel" >Мебель для дома</a></li><li><a href="bp/supply/produkcziya/ofisnaya-mebel" >Офисная мебель</a></li><li><a href="bp/supply/produkcziya/plitka" >Плитка</a></li><li><a href="bp/supply/produkcziya/dizajn-interera" >Лестницы и перила</a></li><li class="last"><a href="bp/supply/produkcziya/kirpich" >Кирпич</a></li></ul></li><li><a href="bp/supply/oborudovanie" >Оборудование</a><ul class=""><li class="first"><a href="bp/supply/oborudovanie/gazovoe" >Газификация</a></li></ul></li><li class="last"><a href="bp/supply/kontaktyi" >Контакты</a></li></ul></li><li><a href="http://groupconcord.ru/bp/manufacture/materials" >Производство</a><ul class=""><li class="first"><a href="bp/manufacture/materials" >Каталог</a><ul class=""><li class="first"><a href="bp/manufacture/materials/kopiya-mebel-dlya-doma" >Мебель для дома</a></li><li><a href="bp/manufacture/materials/kopiya-ofisnaya-mebel" >Офисная мебель</a></li><li><a href="bp/manufacture/materials/kopiya-lestniczyi-i-perila" >Лестницы и перила</a></li><li class="last"><a href="bp/manufacture/materials/kirpich" >Кирпич</a></li></ul></li><li class="last"><a href="bp/manufacture/about-us" >О производстве</a></li></ul></li><li><a href="http://groupconcord.ru/bp/stroitelstvo/dizajn-i-proektirovanie" >Строительство</a><ul class=""><li class="first"><a href="bp/stroitelstvo/dizajn-i-proektirovanie" >Дизайн и проектирование</a></li><li><a href="bp/stroitelstvo/zhilishhno-grazhdanskoe-stroitelstvo" >Жилищно-гражданское строительство</a></li><li><a href="bp/stroitelstvo/transportnoe-stroiteltstvo" >Транспортное строительтство</a></li><li><a href="bp/stroitelstvo/promyishlennoe-stroiteltstvo" >Промышленное строительтство</a></li><li><a href="bp/stroitelstvo/selskoe-stroiteltstvo" >Сельское строительтство</a></li><li><a href="bp/stroitelstvo/restavracziya" >Реставрация</a></li><li class="last"><a href="bp/stroitelstvo/blagoustrojstvo" >Благоустройство</a></li></ul></li><li class="active"><a href="http://groupconcord.ru/bp/it/datacenter" >Информационные технологии</a><ul class=""><li class="first active selected"><a href="bp/it/datacenter" >Центр обработки данных</a><ul class=""><li class="first"><a href="bp/it/datacenter/inzhenernaya-arxitektura" >Инженерная Архитектура</a></li><li><a href="bp/it/datacenter/rent" >Аренда элементов ЦОД</a></li><li class="last"><a href="bp/it/datacenter/oblaka" >Облака</a></li></ul></li><li><a href="bp/it/informaczionnaya-bezopasnost" >Информационная безопасность</a></li><li><a href="bp/it/esystem" >Энергоэффективные системы</a><ul class=""><li class="first"><a href="bp/it/esystem/turbodetander" >Турбодетандер</a></li></ul></li><li><a href="bp/it/sda" >Сервисная архитектура</a></li><li><a href="bp/it/virtualizacziya" >Виртуализация</a><ul class=""><li class="first"><a href="bp/it/virtualizacziya/serverov" >Серверы</a></li><li><a href="bp/it/virtualizacziya/vdi" >Рабочих столов</a></li><li><a href="bp/it/virtualizacziya/work-table" >Приложений</a></li><li class="last"><a href="bp/it/virtualizacziya/sistem-xraneniya" >Систем хранения</a></li></ul></li><li class="last"><a href="bp/it/korporativnyie-informaczionnyie-sistemyi" >Корпоративные информационные системы</a><ul class=""><li class="first"><a href="bp/it/korporativnyie-informaczionnyie-sistemyi/cis" >КИС</a></li><li><a href="bp/it/korporativnyie-informaczionnyie-sistemyi/erp" >ERP</a></li><li><a href="bp/it/korporativnyie-informaczionnyie-sistemyi/crm" >CRM</a></li><li><a href="bp/it/korporativnyie-informaczionnyie-sistemyi/softwaredevelopment" >Разработка программного обеспечения</a></li><li class="last"><a href="bp/it/korporativnyie-informaczionnyie-sistemyi/korporativnaya-pochta" >Корпоративная почта</a></li></ul></li></ul></li><li><a href="bp/prodazhi" >Недвижимость</a><ul class=""><li class="first"><a href="bp/prodazhi/forma-prodazh" >Форма продаж</a></li><li class="last"><a href="bp/prodazhi/katalog" >Каталог</a></li></ul></li><li><a href="http://groupconcord.ru/bp/prodvizhenie/btl" >Продвижение</a><ul class=""><li class="first"><a href="bp/prodvizhenie/btl" >BTL</a><ul class=""><li class="first"><a href="bp/prodvizhenie/btl/o-btl" >О BTL</a></li></ul></li><li><a href="bp/prodvizhenie/digital" >DIGITAL</a><ul class=""><li class="first"><a href="bp/prodvizhenie/digital/digital" >DIGITAL</a></li><li><a href="bp/prodvizhenie/digital/strategii" >Стратегии</a></li><li><a href="bp/prodvizhenie/digital/kreativ" >Креатив</a></li><li><a href="bp/prodvizhenie/digital/texnologii-i-prodakshn" >Технологии и продакшн</a></li><li><a href="bp/prodvizhenie/digital/social-media-marketing" >Social Media Marketing</a></li><li><a href="bp/prodvizhenie/digital/mobilnyij-marketing" >Мобильный маркетинг</a></li><li><a href="bp/prodvizhenie/digital/analiz-aktivnosti-konkurentov" >Анализ активности конкурентов</a></li><li class="last"><a href="bp/prodvizhenie/digital/analitika" >Аналитика</a></li></ul></li><li><a href="bp/prodvizhenie/event" >EVENT</a><ul class=""><li class="first"><a href="bp/prodvizhenie/event/event" >EVENT</a></li></ul></li><li><a href="bp/prodvizhenie/pr-uslugi" >PR-Услуги</a><ul class=""><li class="first"><a href="bp/prodvizhenie/pr-uslugi/pr-uslugi" >PR-УСЛУГИ</a></li></ul></li><li class="last"><a href="bp/prodvizhenie/dizajn-i-kreativ" >Дизайн и креатив</a><ul class=""><li class="first"><a href="bp/prodvizhenie/dizajn-i-kreativ/dizajn-i-kreativ" >ДИЗАЙН И КРЕАТИВ</a></li></ul></li></ul></li><li><a href="http://groupconcord.ru/bp/selskoe-xozyajstvo/rastenievodstvo" >Сельское хозяйство</a><ul class=""><li class="first"><a href="bp/selskoe-xozyajstvo/rastenievodstvo" >Растениеводство</a></li><li><a href="bp/selskoe-xozyajstvo/zhivotnovodstvo" >Животноводство</a></li><li class="last"><a href="bp/selskoe-xozyajstvo/proizvodstvo-kormov" >Производство кормов</a></li></ul></li><li class="last"><a href="http://groupconcord.ru/bp/rekruting/vyisokokvalificzirovannyie-kadryi" >Рекрутинг</a><ul class=""><li class="first"><a href="bp/rekruting/vyisokokvalificzirovannyie-kadryi" >Высококвалифицированные кадры</a></li><li><a href="bp/rekruting/menedzhment-srednego-zvena" >Менеджмент среднего звена</a></li><li><a href="bp/rekruting/trudovaya-migracziya" >Трудовая миграция</a></li><li><a href="bp/rekruting/proektnyij-personal" >Лизинг персонала</a></li><li><a href="bp/rekruting/udalennaya-rabota" >Удаленная работа</a></li><li class="last"><a href="bp/rekruting/xedxanting" >Хедхантинг</a></li></ul></li></ul></li><li><a href="social-projects" >Социальные проекты</a><ul class=""><li class="first"><a href="http://groupconcord.ru/social-projects/charities/funds" >Благотворительные фонды</a><ul class=""><li class="first"><a href="social-projects/charities/funds" >Фонды</a></li></ul></li><li><a href="http://groupconcord.ru/social-projects/education/1" >Образование</a><ul class=""><li class="first"><a href="social-projects/education/kopiya-fondyi" >Копия Фонды</a></li></ul></li><li><a href="http://groupconcord.ru/social-projects/public-organizations" >Общественные организации</a><ul class=""><li class="first"><a href="social-projects/public-organizations/kopiya-kopiya-fondyi" >Копия Копия Фонды</a></li></ul></li><li class="last"><a href="http://groupconcord.ru/partneram/o-partnerstve" >Партнерство</a></li></ul></li><li><a href="http://groupconcord.ru/partneram/o-partnerstve" >Партнерам</a><ul class=""><li class="first"><a href="partneram/o-partnerstve" >О партнерстве</a></li><li><a href="partneram/programmyi" >Программы</a></li><li class="last"><a href="partneram/stat-partnerom" >Стать партнером</a></li></ul></li><li><a href="http://groupconcord.ru/press-czentr/lenta" >Пресс-центр</a><ul class=""><li class="first"><a href="press-czentr/lenta" >Лента</a><ul class=""><li class="first"><a href="press-czentr/lenta/statya-1" >Встреча президента ГК «CONCORD» ведущими журналистами Армении</a></li><li><a href="press-czentr/lenta/statya-2" >Встреча с министром по интеграции и макроэкономике ЕЭК Валовой Т.Д.</a></li><li><a href="press-czentr/lenta/statya-3" >Диалог с заместителем директора РИСИ Гузенковой Т.С.</a></li><li class="last"><a href="press-czentr/lenta/statya-4" >Обсуждение вопросов развития мультимедийной группы SPUTNIK</a></li></ul></li><li><a href="press-czentr/konczepczii" >Концепции</a></li><li><a href="press-czentr/stati" >Статьи</a></li><li class="last"><a href="press-czentr/kontakt-czentr" >Контакт-центр</a></li></ul></li><li><a href="zakupki" >Закупки</a></li><li class="last"><a href="contacts" >Контакты</a></li></ul>
+        </nav>
+        <a class="logo" href="/" title="На Главную"><img src="assets/template/img/logo.png" alt="Concord - Инновационные концепции бизнеса"></a>
+    </div>
+
+</header>
+
+
+<div id="fullpage">
+
+
+
+
+
+    <section class="section
+
+                hideTooltip"
+
+             data-tooltip="ЦОД"
+             data-anchor="dc">
+
+        <div class="container">
+
+
+            <div class="template-snoska  ">
+                <p>Дата-центр или центр (хранения и) обработки данных (ЦОД/ЦХОД) — специализированное здание для
+                    размещения (хостинга) серверного и сетевого оборудования и подключения абонентов к каналам сети
+                    Интернет, исполняющее функции обработки, хранения и распространения информации, как правило, в
+                    интересах корпоративных клиентов, ориентированоое на решение бизнес-задач путём предоставления
+                    информационных услуг.</p>
+            </div>
+
+            <p>В динамично развивающемся мире, по мере увеличением информационного пространства ЦОД стал предметом
+                неподдельного интереса со стороны огромного числа компаний, заинтересованных в экономии собственных
+                капитальных средств. <br/><strong>CONCORD</strong> в области ЦОД сегодня это строительство и
+                эксплуатация ЦОД соответствующего стандартам динамично развивающегося рынка, воплощающего в себе
+                тенденции развития IT, предоставление услуг аренды, аутсорсинг по оперативному ведению, инженерная
+                архитектура.</p>
+            <p>Инфографика:<br/>опыт строительства 23 года/ более 100 успешно реализованных проектов/ более 200 надежных
+                партнеров во всем мире</p>
+            <p>23 летний опыт группы в строительстве, в частности ЦОД в соответствие со стандартами TIA-942 с
+                возможностью дальнейшего получения сертификатов Tier III Facility гарантирующих возможность
+                параллельного обслуживания инженерных подсистем (concurrent maintainability), подразумевающих
+                возможность проведения операций, плановых ремонтных работ и замены оборудования без остановки сервисов
+                дата-центра; масштаб и многопрофильность позволили CONCORD достичь совершенства в создании и реализации
+                сложной с точки зрения архитектуры и инженерных задач инфраструктуры. </p>
+            <p>Строительство ЦОД гарантирующего отсутствие простоев, создание сложной отказоустойчивой инфраструктуры,
+                работа лучших сертифицированных специалистов по эксплуатации, мгновенно реагирующих в режиме 24x7,
+                наличие и выполнение процедур по плановому и внеплановому тестированию всех систем ЦОД на уровне,
+                необходимом для обеспечения заявленного уровня отказоустойчивости дата центра Tier III, основная задача
+                стоящая перед нашей командой. </p>
+            <p>Особое внимание при строительстве и эксплуатации ЦОД CONCORD уделяет безопасности воплощеной в
+                многоуровней СКУД, самых современных составляющих контроля безопасности, включающей вооруженную охрану,
+                ИК датчики движения, полнопрофильные турникеты и бесконтактные карты, бронированные тамбур-шлюзы,
+                биометрические средства контроля доступа (сканирование сетчатки и геометрии ладони), и др.Многолетний
+                опыт компании позволяет CONCORD реализовывать сложные с точки зрения архитектуры и инженерии проекты,
+                удовлетворяя потребности наших партнеров, клиентов. Наличие эксклюзивных цен на материалы за счет
+                собственно производства, дистрибюторских (эксклюзивных) контрактов на более чем 3000 товаров,
+                оборудование, софт позволяет CONCORD существенно снизить сметную стоимость, предоставляя лучшее
+                качество. Гибкая система взаиморасчетов, дисконты предоставляемые нашей группой создает оптимальные
+                условия для наших контрагентов, позволяя существенно снизить стоимость проекта.</p>
+
+
+        </div>
+    </section>
+
+
+    <section class="section
+                "
+             data-tooltip="Проектирование ЦОД"
+             data-anchor="proektirovanie-czod">
+
+        <div class="container">
+
+
+            <h1>Этапы проектирования ЦОД.</h1>
+            <h3>Разработка концепции ЦОД (центра обработки данных, серверной)</h3>
+            <p>Этот этап имеет ключевое значение для успешной реализации всего проекта с целью обеспечения оптимального
+                режима эксплуатации ЦОД в период наибольшей активности. В процессе предпроектного обследования
+                специалисты нашей компании определяют направления работ в соответствии с бизнес-задачами компании
+                заказчика, перечень инженерных решений и мощность вводимого в эксплуатацию дата - центра. На данном
+                этапе проводится изучение текущей IT и бизнес ситуации заказчика, выявляются скрытые резервы,
+                оценивается нагрузочная способность и наполнение действующего оборудования, изучаются запущенные IT и
+                бизнес направления. Разработка концепции позволяет не только построить эффективный ЦОД, но и позволит
+                своевременно выявить риски, устранить непродуктивные расходы и скорректировать планы по развитию. </p>
+            <h3>Проектирование ЦОД (центра обработки данных, серверной)</h3>
+            <p>Проектирование ЦОД осуществляется в соответствии с Постановлением Правительства РФ от 16.02.2008 г. №87
+                "О составе разделов проектной документации и требованиями к их содержанию", региональными строительными
+                нормами и требованиями технического задания. <br/>При проектировании ЦОД учитываются требования
+                существующего законодательства и нормативных документов по экологии, охране труда и пожарной
+                безопасности. </p>
+            <h3>Предпроектное обследование</h3>
+            <p>Цель предпроектного обследования состоит в определении комплекса мероприятий и разработке технических
+                предложений с учетом сформированных типовых решений. По результатам обследования наши
+                инженеры-проектировщики помогут Заказчику разработать грамотное техническое задание (ТЗ) на
+                проектирование ЦОД. </p>
+            <h3>Техническое задание (ТЗ) ЦОД</h3>
+            <p>Требования заказчика составляют основу технического задания (ТЗ) ЦОД и являются тем первичным документом,
+                с которого начинается работа по созданию центра обработки данных. Кроме технических требований, на
+                первых этапах работы по проектированию ЦОД в качестве исходной информации используются данные,
+                полученные в процессе предпроектного обследования. Любое проектирование начинается с правильно
+                написанного технического задания утвержденного заказчиком. От грамотно написанного ТЗ зависят сроки
+                проектирования и выбор необходимого оборудования для строительства ЦОД, описанные в ТЗ. </p>
+            <h3>Проект ЦОД (центра обработки данных, серверной)</h3>
+            <p>Грамотно разработанная концепция будущего ЦОД и техническое задание дает основания для создания эскизного
+                плана дата-центра (проекта ЦОД) – единого комплекса решений, предназначенного для обеспечения заданного
+                режима эксплуатации ЦОД. Эскизный проект ЦОД определяет оптимальное расположение стоек, требования к
+                габаритам серверного зала и служебных помещений, варианты дизайна и принципов резервирования элементов
+                климатических систем, первое представление о бюджете проекта ЦОД, а также целый ряд других параметров,
+                которые позволят облегчить выбор конкретных решений.<br/>На этом этапе проектирования ЦОД
+                прорабатываются основные принципы работы всех систем, а также решения конкретных задач и пожеланий
+                Заказчика. </p>
+            <h3>Рабочая документация ЦОД (центра обработки данных, серверной)</h3>
+            <p>На следующем этапе разрабатывается рабочая документация (РД) ЦОД, которая используется на этапе
+                строительства. Именно на этой стадии определяется ресурсоемкость процесса получения мощностей, объем
+                строительных и монтажных работ, количества необходимого оборудования и материалов, а значит и итоговый
+                бюджет проекта.<br/>Рабочая документация разрабатывается после утверждения предшествующей стадии
+                проектирования. Цель работ на на данной стадии состоит в подготовке точных чертежей, схем и таблиц,
+                которыми будут руководствоваться монтажники при проведении работ по созданию ЦОД. Рабочая документация
+                обеспечивает детальную привязку компонентов всех систем к объекту. </p>
+            <h3>Сметная документация ЦОД (центра обработки данных, серверной)</h3>
+            <p>Разработка сметной документации является заключительным этапом проектирования центра обработки данных и
+                определяет полную стоимость оборудования, строительно-монтажных и пуско-наладочных работ. </p>
+            <h3>Размещение оборудования в ЦОД (центра обработки данных, серверной)</h3>
+            <p>Серверное и сетевое оборудование рекомендуется размещать в 19-дюймовых шкафах. Шкафы необходимо размещать
+                в помещении таким образом, чтобы был доступ к их передней и задней частям. Согласно ANSI/NECA/BICSI
+                568-2001 минимальное свободное расстояние перед передней и задней частями шкафа или стойки должно быть
+                равным 914 мм (при минимальной ширине бокового прохода 762 мм). Устанавливаемые в одном ряду шкафы
+                должны быть скреплены в единую конструкцию соединением болтами боковых сторон каркаса. Согласно п.3.3.2
+                ANSI/NECA/BICSI 568-2001 шкафы должны быть заземлены медным проводником сечением не менее 5 AWG (4,621
+                мм).</p>
+            <h3>Оснащение помещения ЦОД (центра обработки данных, серверной)</h3>
+            <h4>Помещение центра обработки данных (серверной) должно быть оснащено следующими инженерными
+                системами:</h4>
+            <ul>
+                <li><span style="line-height: 1.5em;">пожарная сигнализация;</span></li>
+                <li><span style="line-height: 1.5em;">газовое пожаротушение;</span></li>
+                <li><span style="line-height: 1.5em;">охранная сигнализация;</span></li>
+                <li><span style="line-height: 1.5em;">контроль доступа;</span></li>
+                <li><span style="line-height: 1.5em;">видеонаблюдение;</span></li>
+                <li><span style="line-height: 1.5em;">кондиционирование;</span></li>
+                <li><span style="line-height: 1.5em;">вентиляция;</span></li>
+                <li><span style="line-height: 1.5em;">система гарантированного и бесперебойного электропитания;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">освещение;</span></li>
+                <li><span style="line-height: 1.5em;">аварийное освещение;</span></li>
+                <li><span style="line-height: 1.5em;">заземление;</span></li>
+                <li><span style="line-height: 1.5em;">молниезащита.</span></li>
+            </ul>
+            <h4>Основные стандарты при проектировании ЦОД (центра обработки данных, серверной):</h4>
+            <ul>
+                <li><span>Телекоммуникационная инфраструктура Центров Обработки Данных (TIA-942);</span></li>
+                <li>Commercial Building Telecommunications Cabling Standard (TIA/EIA-568A);</li>
+                <li>Commercial Building Standard for Telecommunication Pathways and Spaces (TIA/EIA-569);</li>
+                <li>Installing Commercial Building Telecommunication Cabling (ANSI/NECA/BICSI 568-2001);</li>
+                <li>Commercial Building Grounding and Bonding Requirements for Telecommunications (ANSI/TIA/EIA-607);
+                </li>
+                <li>Инструкция по проектированию зданий и помещений для электронных вычислительных машин (СН 512-78);
+                </li>
+                <li>Методика проведения обследований зданий и сооружений при их реконструкции и перепланировке
+                    (ММР-2.2.07-98);
+                </li>
+                <li>Правила пожарной безопасности в Российской Федерации (ППБ 01-93);</li>
+                <li>Инженерно-техническая укрепленность. Технические средства охраны. Требования и нормы проектирования
+                    по защите объектов от преступных посягательств (РД 78.36.003-2002/МВД России);
+                </li>
+                <li>Практические правила управления информационной безопасностью (ГОСТ Р ИСО/МЭК 17799-2005);</li>
+                <li>ПУЭ Правила устройства электроустановок (изд. 6, 7);</li>
+                <li>Защита от шума (СНиП II-12-77);</li>
+                <li>Нормы технологического проектирования (РД 45.120-2000);</li>
+                <li><span>Постановление Правительства РФ от 16.02.2008 г. №87 "О составе разделов проектной документации и требованиями к их содержанию".</span>
+                </li>
+            </ul>
+
+
+        </div>
+    </section>
+
+
+    <section class="section
+                "
+             data-tooltip="Строительство"
+             data-anchor="stroitelstvo">
+
+        <div class="container">
+
+
+            <img src="/assets/components/phpthumbof/cache/dcproj.091322a22264b8212a811faf4e129b0270.jpg"
+                 class="img-responsive template-img  " alt="Строительство">
+            <p><strong>CONCORD-it</strong> в области строительства ЦОД это предоставление организационно-технических
+                решений по созданию отказоустойчивой информационной инфраструктуры, технологических площадок для
+                централизованного размещения систем обработки и хранения данных (ЦОД), телекоммуникационного и
+                серверного оборудования. <br/>Масштаб и многопрофильность холдинга, многолетний опыт, наличие прочных
+                деловых связей с ведущими мировыми производителями оборудования и софта позволяет
+                <strong>CONCORD</strong> профессионально оценив бизнес- модель партнера (ЦОД) построить центр хранения и
+                обработки данных любой потребляемой мощности и конструктивной особенности. <br/>Основа холдинга
+                составляет высококвалифицированный персонал, прошедший стажировку в зарубежных компаниях изготовителях
+                оборудования, интеграторах, обладающий необходимыми знаниями и значительным опытом проектирования,
+                организации и выполнения строительных, монтажных и пуско-наладочных работ, а также технической
+                эксплуатации такой сложной системы.</p>
+            <h3>Этапы реализации проекта:</h3>
+            <ul>
+                <li><span>Анализ предоставляемых площадок с учетом ситуационного плана местности техническими специалистами, специалистами бизнес- единиц (финансы на предмет бизнес- моделирования; продвижения, на предмет организации системы продаж, дозагрузки ЦОД, реализации непрофильного бизнеса и пр.), позволяющего оценив бизнес модель реализовать последнюю максимизировав прибыли по проекту;</span>
+                </li>
+                <li><span>Анализ источников энергоснабжения и инфраструктуры сетей передачи данных; </span></li>
+                <li><span>Оформление документов под землеотвод;</span></li>
+                <li><span>Разработка комплексных организационно-технических решений;</span></li>
+                <li><span>Интеграция энергоэффективных систем (систем тригенерации, энергоутилизацинного комплекса, солнечных батарей, систем выработки геотермальной энергии и т.п.) с целью оптимизации бизнес модели;</span>
+                </li>
+                <li><span>Формирование бюджета, разработка технического задания, составление смет построения и проектировки data center с учетом всех преференций CONCORD: наличие собственного производства позволяющего предоставить лучшую цену партнеру, эксклюзивных контрактов предоставляющих лучшую цену на Российском рынке, собственная логистическая сеть позволяющая организовать прямые поставки оборудования известных производителей и обеспечивающая как удешевление сметы так и минимизирующая риски по проекту;</span>
+                </li>
+                <li><span>Подбор и поставка оборудования партнеров <strong>CONCORD-it</strong> ведущих производителей оборудования: компании Эмерсон, (системы прецизионного охлаждения и источники бесперебойного питания, модульная архитектура); APC-MGE, Eaton (источники бесперебойного питания), FG Wilson, SDMO, Commins (дизельные электростанции); Rittal, Estap (телекоммуникационные стойки); Exide, CSB, Yuasa, Leoch (аккумуляторные батареи), Schneider Electric, ABB (электромонтажное оборудование) и ряда других производителей.</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Согласование проектной документации по проекту в надзорных органах;</span>
+                </li>
+                <li><span>Монтаж оборудования (пусконаладочные работы), систем бесперебойного электроснабжения ЦОД ( дизель-генераторы, ИБП/UPS), вентиляции, системы прецизионного кондиционирования, систем безопасности (видеонаблюдения, газового пожаротушения, систем контроля доступа, охранной сигнализации), систем телекоммуникаций (ЛВС и СКС), систем мониторинга и диспетчеризации;</span>
+                </li>
+                <li><span>Поставка и развертывание серверных систем, кластерных комплексов, систем хранения данных, систем резервного копирования и восстановления информации, систем организации распределенных вычислений. <strong>CONCORD-it</strong> имеет обширный опыт по созданию резервных ЦОД, современных систем резервного копирования, высокопроизводительных кластерных платформ; </span>
+                </li>
+                <li><span>Автоматизация ИТ-инфраструктуры ЦОД . Для централизованного управления ИТ и телекоммуникационной инфраструктурой <strong>CONCORD-it</strong> предлагает решение на базе ПО различных производителей на некоторые из который мы являемся эксклюзивными представителями на Российском рынке. Решение включает набор систем управления телекоммуникационной сетью, серверами и приложениями, компонентами системы хранения данных и позволяет администраторам проводить одновременное изменение конфигурации на сотнях и тысячах серверов;</span>
+                </li>
+                <li><span>Внедрение систем мониторинга и управления ЦОД. <strong>CONCORD-it</strong> включает в прикладную инфраструктуру ЦОД систему мониторинга, отслеживающую и измеряющую его параметры: производительность, наличие/отсутствие сбоев и другие.</span>
+                </li>
+            </ul>
+
+
+        </div>
+    </section>
+
+
+    <section class="section
+                "
+
+             data-tooltip="Инженерная Архитектура"
+             data-anchor="inzhenernaya-arxitektura">
+
+        <div class="container">
+
+
+            <img src="/assets/components/phpthumbof/cache/.091322a22264b8212a811faf4e129b0270.jpg"
+                 class="img-responsive template-img  " alt="Инженерная Архитектура">
+            <p><span style="line-height: 1.5em;"><span style="line-height: 1.5em;">Целью создания инженерной конструкции ЦОД является обеспечение безопасности и доступности сервисов. Решать эту задачу необходимо комплексно от грамотного проектирования и выбора качественных компонентов до неукоснительного соблюдения проектной документации при строительстве. Компания CONCOD обладает более чем 23 летним опытом успешной работы.</span></span>
+            </p>
+            <p style="line-height: 1.5em;">Наверно самой важной задачей при проектировании и выборе инженерных систем
+                является энергоснабжение ЦОД. И тут нет мелочей, от г<span>лавных распределительных щитов обеспечивающих прием и распределения энергии, защищиту от перегрузок и коротких замыканий к источникам бесперебойного снабжения энергией (класические ИБП на аккумуляторных батареях или <span>Dynamic running UPS (DRUPS) – гибридное решение, совмещающее функционал бесперебойного и гарантированного электроснабжения) далее дизель генераторные установки (ДГУ) обеспечивающие электроподачу бри отключении основных источников энергии до PDU в стойке. Не стоит забывать, что основой энерго снабжения является источник электричества и именно его наличие и достаточная производственная мощность является критерием выбора места строительства ЦОД. Многие выполненые проекты ЦОД размещены в непосредственной близости от городских распределитьльных подстанций большой мощьности или на территории старых заводов, институтов молнии и т.д.</span></span>
+            </p>
+            <p style="line-height: 1.5em;"><span><span>Компания CONCORD-it в своих проектах старается отходить от традиционного метода и размещает ЦОД не там где есть электроисточник, а там где требует бизнес. В своих решениях мы используем газопршневые / газотурбинные установки в комплексе с детандерами. По сути архитектура ЦОД самостоятельно производит необходимую энергию.</span></span>
+            </p>
+            <p style="line-height: 1.5em;"><span><span>Дополнительный экономический эффект достигается за счет строительства "идеального" здания под конкретную задачу. Полный цикл строительства обеспечивает неукоснительное соблюдение исполнения проекта, как по срокам так и качеству.</span></span>
+            </p>
+            <p style="line-height: 1.5em;"><span><span>Главным потребителем электричества в ЦОД после ИТ оборудования является система охлаждения/климата, в своих проектах мы применяем разумную иновацию в данном вопросе. Многие заказчики стремятся понизить PUE (</span></span><span
+                    style="line-height: 1.5em;">Power Usage Effectiveness) несмотря на здравый смысл. Известные нам проекты сталкивались с существенными сложностями после внедрения систем фрикулинга, как в инженерном аспекте, так и в экономическом.</span>
+            </p>
+            <p style="line-height: 1.5em;"><span style="line-height: 1.5em;">Системы пожаротушения, СКУД, модульные или контейнерные архитектуры - </span><span
+                    style="line-height: 1.5em;">Инженеры компании CONCORD-it готовы найти оптимальное решение для любой задачи в строительстве ЦОД.</span>
+            </p>
+            <p style="line-height: 1.5em;"><span style="line-height: 1.5em;"> </span></p>
+
+
+        </div>
+    </section>
+
+
+    <section class="section
+                "
+
+             data-tooltip="Эксплуатация"
+             data-anchor="ekspluatacziya">
+
+        <div class="container">
+
+
+            <img src="/assets/components/phpthumbof/cache/dcoper.091322a22264b8212a811faf4e129b0270.jpg"
+                 class="img-responsive template-img  " alt="Эксплуатация">
+            <p><strong>CONCORD</strong> в области эксплуатации это квалифицированная команда клиентской поддержки 24х7
+                являющаяся организацией единой точки контакта между поставщиком сервиса и заказчиком, а также оказание
+                высококачественных услуг клиентам компании, с гарантированными параметрами SLA(Service Level Agreement).
+                Выполнение SLA – определяется как время реакции на заявку не более 5 минут и 100% выполнение заявок в
+                срок, сообразно уровню сложности заявки.</p>
+            <p>Предоставление услуг эксплуатации ЦОД- рациональное решение направленное на минимизацию затрат
+                обслуживания ЦОД посредствам сокращения штата сотрудников, отсутствия необходимости сертифицировать,
+                обучать последних, снижение затрат на содержание офиса и накладных расходов; повышение качества
+                обслуживаю за счет привлечения сертифицированнах по мировым стандартам специалистов взращенных в рамках
+                холдинга, опыта обслуживание не одного ЦОД, постоянный мониторинг системы специалистами CONCORD по
+                проверке пожарной сигнализации, системе пожаротушения, энергетиками, связистами, инженерами по
+                холодильному оборудованию и пр.</p>
+            <p>Немаловажным вопросом в рамках аутсорсинга эксплуатации ЦОД является безопасность, которой CONCORD
+                уделяет повышенное внимание. Эффективно выстроенный контроль и мониторинг персонала со стороны службы
+                безопасности, создание системы многоуровневого доступа как к оборудованию так и хранимой на нем
+                информации позволяет полностью диверсифицировать определенные ранее риски.</p>
+
+
+        </div>
+    </section>
+
+
+    <section class="section
+                "
+
+             data-tooltip="Аренда элементов ЦОД"
+             data-anchor="rent">
+
+        <div class="container">
+
+
+            <img src="/assets/components/phpthumbof/cache/dcrent.091322a22264b8212a811faf4e129b0270.jpg"
+                 class="img-responsive template-img  " alt="Аренда элементов ЦОД">
+            <p><strong>CONCORD-it</strong> в области предоставления услуг аренды элементов ЦОД это надежность размещения
+                и хранения как оборудования так и данных, гибкая система взаиморасчетов, возможность получения
+                преференций в рамках программ лояльности CONCORD.</p>
+            <h2>Услуга размещения оборудования или co-location</h2>
+            <p>Размещение серверного оборудования в дата-центре надежности Tier III с гарантированным каналом связи,
+                бесперебойным питанием и необходимым охлаждением.<br/>К серверной стойке с оборудованием имеют доступ
+                только инженеры дата-центра для проведения технического обслуживания.</p>
+            <h3>Преимущества услуги</h3>
+            <ul>
+                <li><span style="line-height: 1.5em;">Бесплатная установка - </span><span style="line-height: 1.5em;">Наши инженеры установят и подключат оборудование в стойки. Личное присутствие при установке необязательно;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Бесплатный IP-KVM - </span><span style="line-height: 1.5em;">Подключение IP-KVM по запросу в панели управления;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Обслуживание - </span><span style="line-height: 1.5em;">Перезагрузка, включение, выключение и внешняя диагностика состояния сервера по запросу;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Безлимитный трафик - </span><span style="line-height: 1.5em;">Без соотношений входящего и исходящего объемов, без скрытых платежей и ограничений;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Высокая скорость - </span><span style="line-height: 1.5em;">Полоса подключения к сети 100 Мбит/с с возможностью расширения до 10 Гбит/с для каждого сервера;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">IP-адреса - </span><span style="line-height: 1.5em;">В абонентскую плату включены IPv4 и IPv6-адреса. В любой момент возможно купить дополнительные IP-адреса.</span>
+                </li>
+            </ul>
+            <h2>Аренда выделенного сервера (dedicated server)</h2>
+            <p>(Аренда выделенного сервера (англ. dedicated server) — это услуга, в которой в распоряжение пользователя
+                предоставляется отдельный физический сервер. Выделенные серверы используются для хранения больших
+                объемов данных, для размещения крупных ресурсоемких проектов, а также для работы с приложениями,
+                несовместимыми с системами виртуализации. <br/>Мы предлагаем в аренду современные производительные
+                серверы. У нас всегда имеются в наличии серверы различных конфигураций с оптимальным соотношением
+                «производительность — надежность — цена». <br/>Выделенные серверы размещаются в надежных современных
+                дата-центрах уровня Tier 3. Мы гарантируем бесперебойное электропитание, качественную связность,
+                резервирование каналов связи. Перед сдачей клиенту все серверы проходят проверку качества и
+                тестирование. Мониторинг работы выделенных серверов осуществляется в режиме 24/7; все технические
+                проблемы решаются в кратчайшие сроки.) <span style="line-height: 1.5em;">Подходят для хранения больших объемов данных, размещения крупных ресурсоемких проектов и для работы с приложениями, несовместимыми с системами виртуализации. Характеристики готовых серверов отвечают самым популярным потребностям.</span>
+            </p>
+            <h3>Преимущества услуги</h3>
+            <ul>
+                <li><span style="line-height: 1.5em;">Быстрая готовность - </span><span style="line-height: 1.5em;">Готовность сервера в течение 2 часов после оплаты;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Управление сервером - </span><span style="line-height: 1.5em;">Управление питанием и KVM-консоль доступны из панели управления;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Установка и восстановление - </span><span
+                        style="line-height: 1.5em;">Установка и восстановление ОС могут быть выполнены самостоятельно;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Безлимитный трафик - </span><span style="line-height: 1.5em;">Без соотношений входящего и исходящего объемов, без скрытых платежей и ограничений;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Высокая скорость - </span><span style="line-height: 1.5em;">Полоса подключения к сети 100 Мбит/с с возможностью расширения до 10 Гбит/с для каждого сервера;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">IP-адреса - </span><span style="line-height: 1.5em;">В абонентскую плату включены IPv4 и IPv6-адреса. В любой момент возможно купить дополнительные IP-адреса.</span>
+                </li>
+            </ul>
+            <h2>Аренда серверной стойки (Rack Rental)</h2>
+            <p>Аренда закрытых серверных стоек в дата-центрах высокой надежности с гарантированным каналом связи,
+                бесперебойным питанием и охлаждением. Высота стоек — 42U и 47U, ширина — 19”, возможна аренда
+                нестандартных стоек. Вы можете обслуживать оборудование самостоятельно или силами инженеров
+                Concord.<br/>Серверные стойки установлены в современных дата-центрах с уровнем защиты Tier III.
+                Дата-центры находятся под круглосуточной охраной.<br/>Серверные помещения оборудованы системой
+                видеонаблюдения с записью. Клиенты, арендующие серверные стойки, попадают в дата-центры для работы с
+                оборудованием по магнитным картам в режиме 24×7.</p>
+            <h3>Преимущества услуги</h3>
+            <ul>
+                <li><span style="line-height: 1.5em;">Электропитание - </span><span style="line-height: 1.5em;">Максимальная выделенная мощность на шкаф — 7 кВА;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Охлаждение - </span><span style="line-height: 1.5em;">Круглосуточная поддержка оптимального температурного режима +22(±2°С);</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Свободный выбор операторов - </span><span
+                        style="line-height: 1.5em;">Стандартное подключение к 25 операторам, присутствующим в дата-центре. Или подключение к любому из операторов в точках присутствия в рамках услуги VLAN до стороннего оператора.</span>
+                </li>
+            </ul>
+            <h2>Аренда выделенного пространства Private Cages and Suites</h2>
+            <p>Выделенная автономная зона для вашего оборудования в дата-центрах <strong>Concord-dc</strong>.</p>
+            <h3>Преимущества услуги</h3>
+            <ul>
+                <li><span style="line-height: 1.5em;">Индивидуальные меры безопасности и проектировочные решения;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">огороженный периметр с использованием глухих или решетчатых перегородок;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">система контроля и управления доступом;</span></li>
+                <li><span style="line-height: 1.5em;">система видеонаблюдения;</span></li>
+                <li><span style="line-height: 1.5em;">система мониторинга систем инженерной инфраструктуры выделенной зоны;</span>
+                </li>
+                <li><span
+                        style="line-height: 1.5em;">структурированная кабельная сеть по индивидуальному проекту;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">решения по размещению, питанию и охлаждению оборудования.</span>
+                </li>
+            </ul>
+            <p>Серверные помещения расположены в дата-центрах <strong>Concord-it</strong> с уровнем надежности Tier III
+                и круглосуточной охраной. Обслуживать оборудование могут ваши сотрудники или инженеры дата-центра.</p>
+
+
+        </div>
+    </section>
+
+
+    <section class="section
+                "
+
+             data-tooltip="Облака"
+             data-anchor="oblaka">
+
+        <div class="container">
+
+
+            <h1>Облака</h1>
+
+
+            <img src="/assets/components/phpthumbof/cache/dccloud.4ab1524e200c70f0838101aee47f812070.png"
+                 class="img-responsive template-img  " alt="Облака">
+            <p><strong style="line-height: 1.5em;">CONCORD-it</strong><span style="line-height: 1.5em;"> облака это надежное решение для вашего бизнеса позволяющее минимизировать затраты на хранение данных, периодическое повышение уровня производительности оборудования- носителей данных (процессоров), минимизировать риски по утере данных в случае поломок и системных сбоев. </span>
+            </p>
+            <h2>Виртуальное приватное облако (VPC) Virtual Private Cloud</h2>
+            <p>Гибкая, масштабируемая и устойчивая инфраструктура на базе Виртуального приватного облака. Доступ к
+                неограниченным ресурсам в любой момент.<br/>Виртуальное приватное облако позволяет создавать
+                произвольное количество изолированных облаков (проектов) с виртуальными машинами. Каждый проект —
+                универсальная платформа для работы с бизнес-приложениями, сложных расчетов, обработки больших объемов
+                данных и запуска игровых серверов.</p>
+            <h3>Преимущества услуги</h3>
+            <ul>
+                <li><span style="line-height: 1.5em;">Планирование расходов - </span><span style="line-height: 1.5em;">Вы арендуете нужный объем ресурсов и распределяете их между проектами. Размер оплаты фиксирован, а расходы предсказуемы;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Настройка проектов  - </span><span style="line-height: 1.5em;">Возможно изменить количество виртуальных машин, ядер процессора, размер памяти и быстрого диска в любой момент. Доступна графическая консоль, поддерживается работа с облаком с помощью консольных клиентов и API;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Управление доступом - </span><span style="line-height: 1.5em;">Возможно предоставить клиентский доступ для каждого проекта. Пользователи могут подключаться к проекту с помощью прямого URL без регистрации в сервисе;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Выбор образов - </span><span style="line-height: 1.5em;">Доступны готовые образы Ubuntu, Debian, CentOS, OpenSUSE. Поддерживается загрузка образов виртуальных машин в форматах Virtualbox, KVM, VMware, Amazon EC2;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Импорт проектов  - </span><span style="line-height: 1.5em;">Позволяет воспроизвести инфраструктуру произвольной сложности. Арендованные ресурсы можно использовать для создания неограниченного количества дисков, машин и сетей;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Интеграция  - </span><span style="line-height: 1.5em;">Услуга поддерживает API OpenStack. Документация, готовые инструменты и примеры кода в свободном доступе.</span>
+                </li>
+            </ul>
+            <h2>Облачное хранилище Cloud storage</h2>
+            <p>Облачное хранилище позволяет разработчикам и крупным компаниям хранить и получать данные в любом объеме,
+                в нужный момент масштабируясь под возрастающие нагрузки.<br/>Хранилище применяется для веб-приложений,
+                распределения контента, резервного копирования и архивации. Интеграция и гибкая настройка происходит
+                через веб-панель, FTP и API (поддерживает Openstack Swift и Amazon S3). Используется отдельно или в
+                сочетании с другими услугами Selectel: Сетью доставки контента (CDN), Виртуальным приватным облаком
+                (VPC), Выделенными серверами.</p>
+            <h3>Преимущества услуги</h3>
+            <ul>
+                <li><span style="line-height: 1.5em;">Размещение данных - </span><span style="line-height: 1.5em;">В облачном хранилище можно разместить статические данные;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Доставка контента - </span><span style="line-height: 1.5em;">Время отклика хранилища в миллисекундах;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Без лишних затрат - </span><span style="line-height: 1.5em;">Оплата только за хранение и исходящий трафик;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Резервирование - </span><span style="line-height: 1.5em;">Автоматически создаются 2 реплики данных на отдельных серверах;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Масштабируемость - </span><span style="line-height: 1.5em;">Хранилище адаптируется к объему загружаемых данных;</span>
+                </li>
+                <li><span style="line-height: 1.5em;">Гарантия надежности - </span><span style="line-height: 1.5em;">SLA финансово защищает ваши интересы и гарантирует доступность 99,98% времени.</span>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+
+</div>
+
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="copyright">© 2016 concord</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="counters">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- scripts -->
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/vendors/scrolloverflow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.5.5/jquery.slicknav.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+<script src="assets/template/js/lib/jquery.fancybox.js"></script>
+<script src="assets/template/js/lib/jquery.standart_load.js"></script>
+<script src="assets/template/js/lib/jquery.standart_window.js"></script>
+<script src="assets/template/js/app/_common.js?ver=1.0.3"></script>
+<!-- /scripts -->
+
+</body>
+</html>
+
+
+
