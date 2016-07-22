@@ -421,6 +421,15 @@ $(function () {
     }
     /* /Всплывающие формы*/
 
+
+    /* Анимированная кнопка-гамбургер для мобильной версии */
+    $('.cmn-toggle-switch').click(function(e) {
+        e.preventDefault();
+        $(this).toggleClass('active');
+        $( ".slicknav_btn " ).trigger( "click" );
+    });
+
+
 }); // END READY
 
 
