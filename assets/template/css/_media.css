@@ -68,9 +68,18 @@
     }
 
     header{
-        height: 73px;
+        height: 74px;
         z-index: 101;
-        border-bottom: 1px solid #e50d0d;
+        /*border-bottom: 1px solid #e50d0d;*/
+    }
+
+    .header-red-line-mobile{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        width: 0;
+        background: #e50d0d;
     }
 
     body.without-menu-top2 header,
@@ -372,8 +381,9 @@
     }
 
     #fp-nav.right {
-        right: -3px;
-        background: transparent;
+        /*right: -3px;*/
+        /*background: transparent;*/
+        display: none!important;
     }
 
     .iScrollVerticalScrollbar{
