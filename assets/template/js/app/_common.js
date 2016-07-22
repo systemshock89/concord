@@ -157,13 +157,6 @@ $(function () {
     /* /Красная линия в верхнем меню */
 
 
-    /* /Красная линия в верхнем меню (mobile) */
-    $('.header-red-line-mobile').animate({
-        width: '100%'
-    }, 600);
-    /* /Красная линия в верхнем меню (mobile) */
-
-
     /* Альтернативное меню второго уровня на стр. Бизнес-портфель и Соц.проекты - с всплыв. кратиким описанием*/
     if( $('.menu-top2-alternative-container').size()>0 ){
         var menu_top2_alternative_description_block = $('.menu-top2-alternative-description-block');
@@ -486,3 +479,14 @@ function clearForm($form) {
     $form.find('input').removeClass('error');
     $form.find('.file_upload > div').html('Добавить файл (doc, .pdf, .jpg и .png)');
 }
+
+
+/* /Красная линия в верхнем меню (mobile) */
+$(window).on('load', function () {
+    setTimeout(function() {
+        $('.header-red-line-mobile').animate({
+            width: '100%'
+        }, 600);
+    }, 500);
+});
+/* /Красная линия в верхнем меню (mobile) */

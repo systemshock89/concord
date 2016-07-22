@@ -83,14 +83,15 @@
     }
 
     body.without-menu-top2 header,
-    body.without-menu-top2-centered header{
+    body.without-menu-top2-centered header,
+    body.index-page header{
         height: 73px;
     }
 
     header:before{
         content: '';
         position: absolute;
-        bottom: -26px;
+        bottom: -25px;
         right: 8px;
         width: 100%;
 
