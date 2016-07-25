@@ -429,6 +429,11 @@ $(function () {
         $( ".slicknav_btn " ).trigger( "click" );
     });
 
+    //сворачиваеие кнопки при переходе по пункту меню
+    $('.slicknav_menu a:not(".slicknav_row, .slicknav_btn")').click(function(e) {
+        $('.cmn-toggle-switch').removeClass('active');
+    });
+    /* /Анимированная кнопка-гамбургер для мобильной версии */
 
 }); // END READY
 
