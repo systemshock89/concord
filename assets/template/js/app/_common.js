@@ -34,6 +34,8 @@ $(function () {
         // paddingTop: '222px',
         paddingBottom: '30px',
         loopBottom: true,
+        controlArrows: false,
+        loopHorizontal: false,
         afterLoad: function(){
             $.fn.fullpage.reBuild(); // чтоб не зависал скролл
 

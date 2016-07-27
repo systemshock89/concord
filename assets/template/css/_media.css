@@ -618,6 +618,9 @@
         padding: 15px;
     }
 
+    .section-mobile{
+        display: block!important;
+    }
 }
 
 
