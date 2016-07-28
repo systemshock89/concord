@@ -767,6 +767,8 @@ body.without-menu-top2 .section{
 
 .menu-top2-alternative-mobile .item .img-container img{
     margin: 0 auto;
+    max-height: 22px;
+    width: auto;
 }
 
 .menu-top2-alternative-mobile .item .name{
