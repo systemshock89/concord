@@ -43,6 +43,17 @@ $(function () {
             if ( $('#fullpage .section').size()> 1 ){
                 $('#fp-nav').show();
             }
+
+        },
+        onLeave: function(){
+
+            /* СЧЕТЧИК партнеров на главной - моб.версия */
+            try {
+                $('.partners-counter-red span').countTo({from: 10, to: 10246, speed: 1000});
+                counter_flag =true;
+            } catch(err) {
+
+            }
         },
         afterRender: function(){
             //Устанавливает отступ от бокового меню для контента
