@@ -448,6 +448,35 @@ $(function () {
     });
     /* /Анимированная кнопка-гамбургер для мобильной версии */
 
+
+    /* Index Owl Slider */
+    $(function() {
+        if( $(".index_slider .owl-carousel").is("div") ){
+
+            var owl =  $('.index_slider .owl-carousel');
+
+            owl.owlCarousel({
+                items: 1,
+                loop: false,
+                rewind: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 12000,
+                autoplayHoverPause: true,
+                nav: true,
+                navText:  [
+                    "",
+                    ""
+                ],
+                dots: false
+            });
+
+            owl.find('.owl-nav .owl-prev').attr('title', 'Предыдущий');
+            owl.find('.owl-nav .owl-next').attr('title', 'Следующий');
+        }
+    });
+    /* /Index Owl Slider */
+
 }); // END READY
 
 

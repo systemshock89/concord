@@ -17,16 +17,33 @@ function initialize() {
   var styledMap = new google.maps.StyledMapType(styles,
     {name: "Styled Map"});
 
-
-  var myOptions = {
-    center: new google.maps.LatLng(55.761066, 37.5845371),
-    zoom: 13,
-       disableDefaultUI: true,
-     mapTypeControl: false,
-   mapTypeControlOptions: {
-      mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+    var isMain = false;
+    if ( window.location.href == "http://groupconcord.ru/"){
+        isMain = true;
     }
-  };
+
+    if (isMain){
+        var myOptions = {
+            center: new google.maps.LatLng(55.761066, 37.5845371),
+            zoom: 12,
+            disableDefaultUI: true,
+            mapTypeControl: false,
+            mapTypeControlOptions: {
+                mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+            }
+        };
+    } else {
+        var myOptions = {
+            center: new google.maps.LatLng(55.761066, 37.5845371),
+            zoom: 13,
+            disableDefaultUI: true,
+            mapTypeControl: false,
+            mapTypeControlOptions: {
+                mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+            }
+        };
+    }
+
 
 
 
