@@ -1089,6 +1089,10 @@ section.section .slide .mobile-footer{
     -webkit-filter: grayscale(1);
 }
 
+.index_slider .hidden-imgs{
+    display: none;
+}
+
 /*owl-nav*/
 .index_slider .owl-carousel .owl-nav [class*=owl-]{
     position: absolute;
