@@ -840,6 +840,7 @@ section.section .slide .mobile-footer{
 
 .main-press{
     margin-top: 23px;
+    text-align: center;
 }
 
 .main-press .pic{
@@ -880,6 +881,8 @@ section.section .slide .mobile-footer{
     font-family: 'InterstateLigh';
     text-align: center;
     margin-top: 23px;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .main-map {

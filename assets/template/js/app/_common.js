@@ -468,7 +468,8 @@ $(function () {
                     "",
                     ""
                 ],
-                dots: false
+                dots: false,
+                autoHeight: true
             });
 
             owl.find('.owl-nav .owl-prev').attr('title', 'Предыдущий');
