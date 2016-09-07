@@ -1052,6 +1052,7 @@ section.section .slide .mobile-footer{
     font-size: 13px;
     color: #797979;
     margin-top: 13px;
+    display: block;
 }
 
 .index_slider .item .title{

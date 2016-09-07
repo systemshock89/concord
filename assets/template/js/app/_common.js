@@ -320,7 +320,7 @@ $(function () {
 
 
     /* Подсчет кол-ва картинок в ленте */
-    $('.article-list .item, .article-inner .item').each(function() {
+    $('.article-list .item, .article-inner .item, .main-press .item').each(function() {
         var articleImg =  $(this).find('.img-container img').size(), //берем основную картинку
             articleImgLink = $(this).find('.hidden-imgs a').size(); //берем число дополнительных картинок
 
