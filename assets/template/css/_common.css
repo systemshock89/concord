@@ -879,6 +879,15 @@ section.section .slide .mobile-footer{
     font-size: 22px;
     font-family: 'InterstateLigh';
     text-align: center;
+    margin-top: 23px;
+}
+
+.main-map {
+    margin-top: 38px;
+}
+
+.main-map .map{
+    margin-bottom: 12px;
 }
 
 .main-contacts{
@@ -910,6 +919,7 @@ section.section .slide .mobile-footer{
 
 .main-footer{
     margin-top: 10px;
+    height: 70px;
 }
 
 .main-footer-popup{
@@ -962,6 +972,7 @@ section.section .slide .mobile-footer{
 /*---------INDEX OWL SLIDER------------*/
 .index_slider {
     position: relative;
+    margin-top: 19px;
 }
 
 .index_slider .container{
@@ -1010,6 +1021,20 @@ section.section .slide .mobile-footer{
     -webkit-filter: grayscale(1);
 }
 
+.index_slider .item .img-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 42px;
+    height: 42px;
+    background: url('../img/zoom.png') center no-repeat;
+    z-index: 1;
+}
+
 .index_slider .item .img-container .count {
     position: absolute;
     bottom: 0;
@@ -1026,6 +1051,7 @@ section.section .slide .mobile-footer{
 .index_slider .item .date{
     font-size: 13px;
     color: #797979;
+    margin-top: 13px;
 }
 
 .index_slider .item .title{
@@ -1036,10 +1062,14 @@ section.section .slide .mobile-footer{
     display: block;
     text-decoration: none;
     color: #000000;
+    margin-top: 10px;
+    line-height: 20px;
 }
 
 .index_slider .item .pressa .name {
     color: #a7a7a7;
+    margin-top: 12px;
+    margin-bottom: 2px;
 }
 
 .index_slider .item .pressa .pressa-logo {
@@ -1064,10 +1094,9 @@ section.section .slide .mobile-footer{
     position: absolute;
     width: 50px;
     height: 6px;
-    top: 50%;
+    top: 67px;
     padding: 0;
     margin: 0;
-    margin-top: -22px;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
