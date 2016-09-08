@@ -2483,6 +2483,10 @@ a.fancybox-thumb:hover .img-container:before {
     -webkit-transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out, opacity 0.1s ease-in-out, color 0.1s ease-in-out;
     transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out, opacity 0.1s ease-in-out,  color 0.1s ease-in-out;
 }
+
+.mobile-design2-page{
+    display: none;
+}
 /*---------/OTHER STYLES------------*/
 
 

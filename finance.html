@@ -1,0 +1,452 @@
+<!doctype html>
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="ru"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="http://concord.modx/"/>
+    <!--<base href="http://groupconcord.ru/"/>-->
+    <title>Финансы - тест</title>
+
+
+    <meta property="og:title" content="Главная">
+    <meta property="og:description" content="">
+
+
+    <link rel="shortcut icon" href="assets/template/img/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts Loader from fonts.css (HTML5 LocalStorage) -->
+    <script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)} var bases=document.getElementsByTagName("base"),baseHref="";bases.length>0&&(baseHref=bases[0].href); var o=baseHref+"assets/template/css/_fonts_modx.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="assets/template/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/template/css/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.5.5/slicknav.min.css">
+    <link rel="stylesheet" href="assets/template/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/template/css/_common.css?ver=1.0.0">
+    <link rel="stylesheet" href="assets/template/css/_media.css?ver=1.0.0">
+</head>
+
+<body class="mobile-design2">
+
+<!--header-->
+<header>
+
+    <div class="header-desktop hidden-sm hidden-xs">
+        <div class="header-part1">
+            <div class="container clearfix">
+
+                    <span class="microrazmetka" itemscope itemtype='http://schema.org/LocalBusiness'>
+       <meta itemprop='name' content='Concord'>
+       <span itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
+           <meta itemprop='postalCode' content='125375'>
+           <meta itemprop='addressLocality' content='Москва'>
+           <meta itemprop='streetAddress' content='Тверская улица, 18'>
+        </span>
+
+        <span itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
+           <meta itemprop='postalCode' content='123100'>
+           <meta itemprop='addressLocality' content='Москва'>
+           <meta itemprop='streetAddress' content='Пресненская наб., 12'>
+        </span>
+        <meta itemprop='telephone' content='8 (495) 211-81-87'>
+        <meta itemprop='openingHours' content='Пн-Пт 9:00-18:00' datetime='Mo-Fr 9:00-18:00'>
+        <meta itemprop='email' content='info@groupconcord.ru'>
+</span>
+
+
+                <a href="/" class="logo">
+                    <img src="assets/template/img/logo.png" class="img-responsive" alt="Concord - Инновационные концепции бизнеса">
+                    <span class="text">инновационные концепции бизнеса</span>
+                </a>
+
+                <nav class="menu-top">
+                    <ul class="level1"><li class="first"><a href="about" >О компании</a></li><li class="active"><a href="bp" >Бизнес-портфель</a></li><li><a href="social-projects" >Социальные проекты</a></li><li><a href="http://groupconcord.ru/partneram/o-partnerstve" >Партнерам</a></li><li><a href="http://groupconcord.ru/press-czentr/lenta" >Пресс-центр</a></li><li><a href="zakupki" >Закупки</a></li><li class="last"><a href="contacts" >Контакты</a></li></ul>
+                </nav>
+
+            </div>
+            <div class="header-red-line"></div>
+        </div>
+
+        <div class="menu-top2-container">
+            <div class="container">
+                <nav class="menu-top2">
+
+
+
+
+
+
+                    <ul class="level1" row><div class="col-sm-2" >
+                        <li  class="first active selected">
+                            <a href="bp/finansyi/zpif" >
+            <span class="img-container">
+                <img src="assets/content/images/icons/1-proektnoe-finansirovanie.svg" alt="ЗПИФ">
+            </span>
+                                <span class="text">ЗПИФ</span>
+                            </a>
+                        </li>
+                    </div><div class="col-sm-2" >
+                        <li >
+                            <a href="bp/finansyi/pensionnyij-fond" >
+            <span class="img-container">
+                <img src="assets/content/images/icons/2-pensionniy-fond.svg" alt="Пенсионный фонд">
+            </span>
+                                <span class="text">Пенсионный фонд</span>
+                            </a>
+                        </li>
+                    </div><div class="col-sm-2" >
+                        <li  class="last">
+                            <a href="bp/finansyi/investiczionnaya-kompaniya" >
+            <span class="img-container">
+                <img src="assets/content/images/icons/3-investic-kompaniya.svg" alt="Консалтинг">
+            </span>
+                                <span class="text">Консалтинг</span>
+                            </a>
+                        </li>
+                    </div></ul>
+
+
+
+
+
+                </nav>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="header-mobile visible-sm visible-xs">
+        <nav class="menu-mobile">
+            <ul class=""><li class="first"><a href="/" >Главная</a></li><li><a href="about" >О компании</a><ul class=""><li class="first"><a href="about/o-kompanii" >О компании</a></li><li><a href="about/korporativnoe-upravlenie" >Корпоративное управление</a><ul class=""><li class="first"><a href="about/korporativnoe-upravlenie/prezident" >Президент</a></li><li class="last"><a href="about/korporativnoe-upravlenie/menedzhment" >Менеджмент</a></li></ul></li><li><a href="about/soczialnoe-upravlenie" >Социальное управление</a></li><li class="last"><a href="about/karera" >Карьера</a></li></ul></li><li class="active"><a href="bp" >Бизнес-портфель</a><ul class=""><li class="first"><a href="http://groupconcord.ru/bp/development/dlya-pokupatelej" >Девелопмент</a><ul class=""><li class="first"><a href="bp/development/dlya-pokupatelej" >Проекты</a></li><li><a href="bp/development/uslugi-dlya-investorov" >Инвесторам</a></li><li><a href="bp/development/kommercheskaya-nedvizhimost" >Управление проектом</a></li><li class="last"><a href="bp/development/investiczionnyie-proektyi" >Консалтинг</a></li></ul></li><li class="active"><a href="http://groupconcord.ru/bp/finansyi/zpif" >Финансы</a><ul class=""><li class="first active selected"><a href="bp/finansyi/zpif" >ЗПИФ</a></li><li><a href="bp/finansyi/pensionnyij-fond" >Пенсионный фонд</a></li><li class="last"><a href="bp/finansyi/investiczionnaya-kompaniya" >Консалтинг</a></li></ul></li><li><a href="http://groupconcord.ru/bp/supply/raw" >Поставки</a><ul class=""><li class="first"><a href="bp/supply/raw" >Сырье</a><ul class=""><li class="first"><a href="bp/supply/raw/lesomaterialyi" >Лесоматериалы</a></li></ul></li><li><a href="bp/supply/produkcziya" >Продукция</a><ul class=""><li class="first"><a href="bp/supply/produkcziya/metallurgiya" >Металлургия</a></li><li><a href="bp/supply/produkcziya/kabel" >Кабель</a></li><li><a href="bp/supply/produkcziya/plastik" >Пластикат</a></li><li><a href="bp/supply/produkcziya/bumaga" >Бумага</a></li><li><a href="bp/supply/produkcziya/marketingovyie-resheniya" >Маркетинговые решения</a></li><li><a href="bp/supply/produkcziya/mebel" >Мебель для дома</a></li><li><a href="bp/supply/produkcziya/ofisnaya-mebel" >Офисная мебель</a></li><li><a href="bp/supply/produkcziya/plitka" >Плитка</a></li><li><a href="bp/supply/produkcziya/dizajn-interera" >Лестницы и перила</a></li><li class="last"><a href="bp/supply/produkcziya/kirpich" >Кирпич</a></li></ul></li><li><a href="bp/supply/oborudovanie" >Оборудование</a><ul class=""><li class="first"><a href="bp/supply/oborudovanie/gazovoe" >Газификация</a></li></ul></li><li class="last"><a href="bp/supply/kontaktyi" >Контакты</a></li></ul></li><li><a href="http://groupconcord.ru/bp/manufacture/materials" >Производство</a><ul class=""><li class="first"><a href="bp/manufacture/materials" >Каталог</a><ul class=""><li class="first"><a href="bp/manufacture/materials/kopiya-mebel-dlya-doma" >Мебель для дома</a></li><li><a href="bp/manufacture/materials/kopiya-ofisnaya-mebel" >Офисная мебель</a></li><li><a href="bp/manufacture/materials/kopiya-lestniczyi-i-perila" >Лестницы и перила</a></li><li class="last"><a href="bp/manufacture/materials/kirpich" >Кирпич</a></li></ul></li><li class="last"><a href="bp/manufacture/about-us" >О производстве</a></li></ul></li><li><a href="http://groupconcord.ru/bp/stroitelstvo/dizajn-i-proektirovanie" >Строительство</a><ul class=""><li class="first"><a href="bp/stroitelstvo/dizajn-i-proektirovanie" >Дизайн и проектирование</a></li><li><a href="bp/stroitelstvo/zhilishhno-grazhdanskoe-stroitelstvo" >Жилищно-гражданское строительство</a></li><li><a href="bp/stroitelstvo/transportnoe-stroiteltstvo" >Транспортное строительтство</a></li><li><a href="bp/stroitelstvo/promyishlennoe-stroiteltstvo" >Промышленное строительтство</a></li><li><a href="bp/stroitelstvo/selskoe-stroiteltstvo" >Сельское строительтство</a></li><li><a href="bp/stroitelstvo/restavracziya" >Реставрация</a></li><li class="last"><a href="bp/stroitelstvo/blagoustrojstvo" >Благоустройство</a></li></ul></li><li><a href="http://groupconcord.ru/bp/it/datacenter" >Информационные технологии</a><ul class=""><li class="first"><a href="bp/it/datacenter" >Центр обработки данных</a><ul class=""><li class="first"><a href="bp/it/datacenter/inzhenernaya-arxitektura" >Инженерная Архитектура</a></li><li><a href="bp/it/datacenter/rent" >Аренда элементов ЦОД</a></li><li class="last"><a href="bp/it/datacenter/oblaka" >Облака</a></li></ul></li><li><a href="bp/it/informaczionnaya-bezopasnost" >Информационная безопасность</a></li><li><a href="bp/it/esystem" >Энергоэффективные системы</a><ul class=""><li class="first"><a href="bp/it/esystem/turbodetander" >Турбодетандер</a></li></ul></li><li><a href="bp/it/sda" >Сервисная архитектура</a></li><li><a href="bp/it/virtualizacziya" >Виртуализация</a><ul class=""><li class="first"><a href="bp/it/virtualizacziya/serverov" >Серверы</a></li><li><a href="bp/it/virtualizacziya/vdi" >Рабочих столов</a></li><li><a href="bp/it/virtualizacziya/work-table" >Приложений</a></li><li class="last"><a href="bp/it/virtualizacziya/sistem-xraneniya" >Систем хранения</a></li></ul></li><li class="last"><a href="bp/it/korporativnyie-informaczionnyie-sistemyi" >Корпоративные информационные системы</a><ul class=""><li class="first"><a href="bp/it/korporativnyie-informaczionnyie-sistemyi/cis" >КИС</a></li><li><a href="bp/it/korporativnyie-informaczionnyie-sistemyi/erp" >ERP</a></li><li><a href="bp/it/korporativnyie-informaczionnyie-sistemyi/crm" >CRM</a></li><li><a href="bp/it/korporativnyie-informaczionnyie-sistemyi/softwaredevelopment" >Разработка программного обеспечения</a></li><li class="last"><a href="bp/it/korporativnyie-informaczionnyie-sistemyi/korporativnaya-pochta" >Корпоративная почта</a></li></ul></li></ul></li><li><a href="bp/prodazhi" >Недвижимость</a><ul class=""><li class="first"><a href="bp/prodazhi/forma-prodazh" >Форма продаж</a></li><li class="last"><a href="bp/prodazhi/katalog" >Каталог</a></li></ul></li><li><a href="http://groupconcord.ru/bp/prodvizhenie/btl" >Продвижение</a><ul class=""><li class="first"><a href="bp/prodvizhenie/btl" >BTL</a><ul class=""><li class="first"><a href="bp/prodvizhenie/btl/o-btl" >О BTL</a></li></ul></li><li><a href="bp/prodvizhenie/digital" >DIGITAL</a><ul class=""><li class="first"><a href="bp/prodvizhenie/digital/digital" >DIGITAL</a></li><li><a href="bp/prodvizhenie/digital/strategii" >Стратегии</a></li><li><a href="bp/prodvizhenie/digital/kreativ" >Креатив</a></li><li><a href="bp/prodvizhenie/digital/texnologii-i-prodakshn" >Технологии и продакшн</a></li><li><a href="bp/prodvizhenie/digital/social-media-marketing" >Social Media Marketing</a></li><li><a href="bp/prodvizhenie/digital/mobilnyij-marketing" >Мобильный маркетинг</a></li><li><a href="bp/prodvizhenie/digital/analiz-aktivnosti-konkurentov" >Анализ активности конкурентов</a></li><li class="last"><a href="bp/prodvizhenie/digital/analitika" >Аналитика</a></li></ul></li><li><a href="bp/prodvizhenie/event" >EVENT</a><ul class=""><li class="first"><a href="bp/prodvizhenie/event/event" >EVENT</a></li></ul></li><li><a href="bp/prodvizhenie/pr-uslugi" >PR-Услуги</a><ul class=""><li class="first"><a href="bp/prodvizhenie/pr-uslugi/pr-uslugi" >PR-УСЛУГИ</a></li></ul></li><li class="last"><a href="bp/prodvizhenie/dizajn-i-kreativ" >Дизайн и креатив</a><ul class=""><li class="first"><a href="bp/prodvizhenie/dizajn-i-kreativ/dizajn-i-kreativ" >ДИЗАЙН И КРЕАТИВ</a></li></ul></li></ul></li><li><a href="http://groupconcord.ru/bp/selskoe-xozyajstvo/rastenievodstvo" >Сельское хозяйство</a><ul class=""><li class="first"><a href="bp/selskoe-xozyajstvo/rastenievodstvo" >Растениеводство</a></li><li><a href="bp/selskoe-xozyajstvo/zhivotnovodstvo" >Животноводство</a></li><li class="last"><a href="bp/selskoe-xozyajstvo/proizvodstvo-kormov" >Производство кормов</a></li></ul></li><li class="last"><a href="http://groupconcord.ru/bp/rekruting/vyisokokvalificzirovannyie-kadryi" >Рекрутинг</a><ul class=""><li class="first"><a href="bp/rekruting/vyisokokvalificzirovannyie-kadryi" >Высококвалифицированные кадры</a></li><li><a href="bp/rekruting/menedzhment-srednego-zvena" >Менеджмент среднего звена</a></li><li><a href="bp/rekruting/trudovaya-migracziya" >Трудовая миграция</a></li><li><a href="bp/rekruting/proektnyij-personal" >Лизинг персонала</a></li><li><a href="bp/rekruting/udalennaya-rabota" >Удаленная работа</a></li><li class="last"><a href="bp/rekruting/xedxanting" >Хедхантинг</a></li></ul></li></ul></li><li><a href="social-projects" >Социальные проекты</a><ul class=""><li class="first"><a href="http://groupconcord.ru/social-projects/charities/funds" >Благотворительные фонды</a><ul class=""><li class="first"><a href="social-projects/charities/funds" >Фонды</a></li></ul></li><li><a href="http://groupconcord.ru/social-projects/education/1" >Образование</a><ul class=""><li class="first"><a href="social-projects/education/kopiya-fondyi" >Копия Фонды</a></li></ul></li><li><a href="http://groupconcord.ru/social-projects/public-organizations" >Общественные организации</a><ul class=""><li class="first"><a href="social-projects/public-organizations/kopiya-kopiya-fondyi" >Копия Копия Фонды</a></li></ul></li><li class="last"><a href="http://groupconcord.ru/partneram/o-partnerstve" >Партнерство</a></li></ul></li><li><a href="http://groupconcord.ru/partneram/o-partnerstve" >Партнерам</a><ul class=""><li class="first"><a href="partneram/o-partnerstve" >О партнерстве</a></li><li><a href="partneram/programmyi" >Программы</a></li><li class="last"><a href="partneram/stat-partnerom" >Стать партнером</a></li></ul></li><li><a href="http://groupconcord.ru/press-czentr/lenta" >Пресс-центр</a><ul class=""><li class="first"><a href="press-czentr/lenta" >Лента</a><ul class=""><li class="first"><a href="press-czentr/lenta/statya-1" >Встреча президента ГК «CONCORD» ведущими журналистами Армении</a></li><li><a href="press-czentr/lenta/statya-2" >Встреча с министром по интеграции и макроэкономике ЕЭК Валовой Т.Д.</a></li><li><a href="press-czentr/lenta/statya-3" >Диалог с заместителем директора РИСИ Гузенковой Т.С.</a></li><li class="last"><a href="press-czentr/lenta/statya-4" >Обсуждение вопросов развития мультимедийной группы SPUTNIK</a></li></ul></li><li><a href="press-czentr/konczepczii" >Концепции</a></li><li><a href="press-czentr/stati" >Статьи</a></li><li class="last"><a href="press-czentr/kontakt-czentr" >Контакт-центр</a></li></ul></li><li><a href="zakupki" >Закупки</a></li><li class="last"><a href="contacts" >Контакты</a></li></ul>
+        </nav>
+        <a class="logo" href="/" title="На Главную">
+            <img src="assets/template/img/logo.png" alt="Concord - Инновационные концепции бизнеса">
+            <span class="text">инновационные концепции бизнеса</span>
+        </a>
+
+        <button class="cmn-toggle-switch cmn-toggle-switch__htx">
+            <span></span>
+        </button>
+
+        <div class="header-red-line-mobile"></div>
+    </div>
+
+</header>
+
+
+
+
+<div id="fullpage">
+
+
+    <section class="section"
+
+             data-tooltip="ЗПИФ"
+             data-anchor="zpif">
+
+        <div class="container">
+
+
+            <div class="template-snoska  ">
+                <p>ФЗ № 156-ФЗ от 29 ноября 2001 года «Об инвестиционных фондах» определяет ПИФ как «обособленный
+                    имущественный комплекс, состоящий из имущества, переданного в доверительное управление управляющей
+                    компании учредителями доверительного управления с условием объединения этого имущества с имуществом
+                    иных учредителей доверительного управления, и из имущества, полученного в процессе такого
+                    управления, доля в праве собственности на которое удостоверяется ценной бумагой, выдаваемой
+                    управляющей компанией»...</p>
+            </div>
+
+            <p>Закрытые паевые инвестиционные фонды (ЗПИФ)- активно развивающийся, современный инструмент финансового
+                рынка, ориентированный на организаторов проектов,заинтересованых в успешной их реализации и привлечении
+                инвестиций на долгосрочной основе. </p>
+            <p>Закрытый паевой инвестиционный фонд - обособленный имущественный комплекс без образования юридического
+                лица. Имущество ЗПИФ принадлежит владельцам инвестиционных паев на праве общей долевой
+                собственности. </p>
+            <p>В отличие от открытых паевых инвестиционных фондов ЗПИФ формируется под определенную инвестиционную
+                стратегию, и погасить инвестиционные паи можно только при прекращении фонда (также в ЗПИФ возможны
+                промежуточные выплаты доходов пайщикам). Как правило, срок инвестирования составляет от 3-х до 15
+                лет. </p>
+            <p>Юридической основой функционирования ЗПИФ является договор доверительного управления (Правила Фонда), в
+                соответствии с которым учредитель управления передает имущество в Фонд, а управляющая компания
+                осуществляет управление активами ЗПИФ. </p>
+            <p>В зависимости от целей создания ЗПИФ, Фонд может относиться к определенной категории (недвижимости,
+                прямых инвестиций, хедж-фонд, кредитный, венчурный и т.д.). Всего на текущий момент предусмотрено 16
+                категорий фондов, каждый из которых по своему индивидуален, так как предусматривает инвестирование в
+                строго определенные активы, предусмотренные инвестиционной декларацией, формируемой в соответствии с
+                Приказом ФСФР от 28 декабря 2010 г. N 10-79/пз-н о составе и структуре активов ПИФ и имеет ограничения к
+                инвестированию для каждой категории фондов. </p>
+            <p><strong><em>Имущество Фонда</em> </strong></p>
+            <p>В доверительное управление ЗПИФ учредители управления могут передавать денежные средства, а также иное
+                имущество, предусмотренное инвестиционной декларацией фонда и действующим законодательством. </p>
+            <p><strong><em>Преимущества инвестирования через ЗПИФ</em> </strong></p>
+            <ul>
+                <li>Гибкость и удобство инвестирования:</li>
+                <li>Возможность использования ЗПИФ в качестве инструмента секьюритизации активов:</li>
+                <ul>
+                    <li>возможность привлечения дополнительных инвесторов через продажу паев, либо через дополнительные
+                        выпуски паев;
+                    </li>
+                    <li>инвестиционные паи могут обращаться на фондовых биржах и на внебиржевом рынке;</li>
+                    <li>возможность выйти из проекта путем продажи паев;</li>
+                    <li>возможность перераспределения собственности через продажу паев;</li>
+                    <li>возможность получения кредита под залог инвестиционных паев.</li>
+                </ul>
+                <li>Защита собственности:</li>
+                <ul>
+                    <li>обращение взыскания по долгам владельцев паев Фонда распространяется только на принадлежащие им
+                        инвестиционные паи;
+                    </li>
+                    <li>Фонд не отвечает по долгам управляющей компании и владельцев паев;</li>
+                    <li>ограничивается доступ к информации о собственниках активов Фонда.</li>
+                </ul>
+                <li>Высокий уровень контроля за инвестициями:</li>
+                <ul>
+                    <li>жесткий контроль со стороны контролирующих и регулирующих органов;</li>
+                    <li>контроль за распоряжением имуществом Фонда со стороны специализированного депозитария;</li>
+                    <li>обязательное раскрытие информации;</li>
+                    <li>пайщики способны контролировать действия управляющей компании и вправе принимать решения об
+                        изменении основных параметров Фонда;
+                    </li>
+                    <li>пайщики могут принять решение о смене Управляющей компании и досрочном прекращении Фонда;</li>
+                    <li>установленная законодательством четкая периодичность проведения независимого аудита Фонда и
+                        оценки активов Фонда.
+                    </li>
+                </ul>
+            </ul>
+            <p><strong><em>Контроль управления</em> </strong></p>
+            <p>Для получения возможности дополнительного контроля за действиями Управляющей компании может быть создан
+                Фонд, предназначенный только для квалифицированных инвесторов (порядок признания лиц квалифицированными
+                инвесторами устанавливается соответствующими нормативными документами). </p>
+            <p>Контроль осуществляется путем создания Инвестиционного комитета, в рамках которого предусматривается
+                необходимость одобрения всеми или несколькими владельцами инвестиционных паев всех сделок с имуществом,
+                составляющим Фонд. Таким образом, пайщики через Инвестиционный комитет самостоятельно определяют
+                направления инвестирования. </p>
+            <p>Инвестиционные паи инвестиционных фондов, относящихся к категориям фондов прямых инвестиций, фондов особо
+                рисковых (венчурных) инвестиций, кредитных фондов, хедж-фондов и фондов долгосрочных прямых инвестиций,
+                предназначены только для квалифицированных инвесторов. </p>
+            <p><strong><em>Налогообложение</em> </strong></p>
+            <ul>
+                <li>Налог на прибыль</li>
+            </ul>
+            <p>В связи с тем, что как описано выше, ЗПИФ не является юридическим лицом, он освобожден от уплаты налога
+                на прибыль с полученных доходов. Налог на прибыль пайщик уплачивает только в момент погашения/продажи
+                паев, а также при получении промежуточного дохода по паям (база для налога исчисляется как доходы от
+                реализации/погашения пая за вычетом расходов на его приобретение). </p>
+            <p>Отложенная уплата налога на прибыль позволяет реинвестировать доход, полученный от сделок с имуществом
+                Фонда в полном объеме на срок до момента получения дохода пайщиком (погашения паев, выплаты
+                промежуточного дохода). </p>
+            <p>Передача пайщиком имущества в ЗПИФ не является налогооблагаемой операцией для пайщика. </p>
+            <p>При погашении инвестиционных паев удержание у пайщика - физического лица суммы налога производится
+                Управляющей компанией, действующей в качестве налогового агента. </p>
+            <p>Юридические лица осуществляют уплату налога самостоятельно в соответствии с действующими налоговыми
+                ставками. </p>
+            <p>Доходы пайщиков-резидентов облагаются налогом на доходы физических лиц (налогом на прибыль - для
+                юридических лиц). Ставка налога на доходы физических лиц - резидентов Российской Федерации составляет
+                13%, юридических лиц - резидентов Российской Федерации - 20%. </p>
+            <p>Доходы пайщиков-нерезидентов подлежат обложению в РФ налогом у источника выплаты и удерживаются у
+                источника выплаты дохода (для физических лиц - 30%, для юридических лиц - 20%). В случае если местом
+                налогового резидентства иностранной компании (или физического лица) является государство, с которым у РФ
+                заключено Соглашение об избежании двойного налогообложения, доходы пайщика-нерезидента подлежат
+                налогообложению в РФ в соответствии с положениями такого Соглашения. </p>
+            <ul>
+                <li>Налог на имущество</li>
+            </ul>
+            <p>С имущества, входящего в состав активов ЗПИФ, платится налог на имущество в соответствии С имущества,
+                входящего в состав активов ЗПИФ, платится налог на имущество в соответствии с действующим
+                законодательством РФ. Оплата налога на имущество осуществляется за счет активов, составляющих Фонд. </p>
+            <ul>
+                <li>Налог на добавленную стоимость</li>
+                <ul>
+                    <li>операции ЗПИФ (в том числе сдача имущества в аренду и продажа имущества) облагаются НДС в общем
+                        порядке. При этом обязанность по расчету и уплате в бюджет налога возложена на управляющую
+                        компанию;
+                    </li>
+                    <li>при внесении имущества в ЗПИФ, ранее принятый пайщиком к вычету НДС по такому имуществу подлежит
+                        восстановлению;
+                    </li>
+                    <li>операции по реализации земельных участков (долей в них) не облагаются НДС;</li>
+                    <li>операции по реализации объектов жилой недвижимости (долей в них) не облагаются НДС;</li>
+                    <li>операции по реализации нежилых объектов облагаются НДС в общем порядке.</li>
+                </ul>
+            </ul>
+            <p><strong><em>Возможности использования инструмента ЗПИФ</em> </strong></p>
+            <ul>
+                <li>Механизм для участия в девелоперских проектах;</li>
+                <li>Механизм для грамотного структурирования арендного бизнеса;</li>
+                <li>Возможность временной «парковки» активов (недвижимость, ценные бумаги, доли обществ и т.д.);</li>
+                <li>Возможность использования платформы ВТБ Капитал для доступа на российский рынок;</li>
+                <li>Возможность структурирования активов компании через паи ЗПИФ;</li>
+                <li>Механизм для проведения опционных программ поощрения менеджмента компаний;</li>
+                <li>Механизм для участия в приватизации рыночных активов.</li>
+            </ul>
+
+
+        </div>
+    </section>
+
+
+    <section class="section"
+
+             data-tooltip="Инвестиции в недвижимость"
+             data-anchor="zpifn">
+
+        <div class="container">
+
+
+            <p><span>CONCORD- finance предоставляет возможность инвестирования в  </span><span>закрытый паевый инвестиционный фонд недвижимости ( </span><span>ЗПИФН)- </span><span>инструмент долгосрочного инвестирования, обладающий привлекательным соотношением доходности и риска, предназначенный для приобретение объектов коммерческой недвижимости и прав на недвижимость для получения дохода в виде арендных платежей, а также получения прибыли при продаже объектов за счет увеличения их рыночной стоимости. Фонд ориентирован на инвесторов, заинтересованных в долгосрочных инвестициях на рынке недвижимости, диверсифицируя риски инвестированном в объекты коммерческой недвижимости в различных регионах России, обладающие потенциалом роста рыночной стоимости.</span><span>   </span>
+            </p>
+            <p>
+                <span><br/> </span><span>Многолетний опыт успешной реализации группой инфраструктурных проектов, </span><span>высокопрофессиональный менеджмент, обладающий значительным опытом работы в области сделок с коммерческой и жилой недвижимостью, инфраструктурной отраслью и финансами как основой группы- надежного делового партнерам с безупречной репутацией, сочетающего западный подход к инвестиционному процессу, широкую сеть контактов с влиятельными международными инвесторами, глубокое знание особенностей российского рынка недвижимости и наработанными контактами с ведущими игроками на данном рынке </span><span>позволяет диверсифицировать риски по проектам, предоставляя надежность инвесторам, минимизируя риски. </span><span><br/> </span>
+            </p>
+            <p><span><br/> </span></p>
+            <p><span> </span></p>
+
+
+        </div>
+    </section>
+
+
+    <section class="section"
+
+             data-tooltip="Фонд прямых инвестиций"
+             data-anchor="zpifpi">
+
+        <div class="container">
+
+
+            <div class="template-snoska  ">
+                <p><strong>ФОНД ПРЯМЫХ ИНВЕСТИЦИЙ</strong> - <strong>это</strong> инвестиционный <strong>фонд</strong> ,
+                    который вкладывает деньги в реальные активы или получает контроль над конкретным предприятием
+                    (покупая крупный пакет его акций, дающий право на участие в управлении компанией). </p>
+            </div>
+
+            <p>Преимущества CONCORD: </p>
+            <p>
+                <span>Финансовая устойчивость позволяющая обеспечивать профильные компании достаточным объемом средств.  </span>
+            </p>
+            <p><span>Многопрофильность, уникальный опыт позволяющий оказывать компаниям поддержку в управлении, развивая деятельность компании путем:</span><span> </span>
+            </p>
+            <ul>
+                <li><span>Внедрения новых управленческих процедур, политики, бюджетов и бизнес-планов; <br/> </span>
+                </li>
+                <li><span>При необходимости пополняя руководящий состав, в том числе нанимая западных топ-менеджеров по продажам и административному руководству или финансовых директоров с целью усовершенствования функций аудита и контроля; </span><span> </span>
+                </li>
+                <li><span>Оценкой и внедрением новых систем по мере необходимости;</span><span> </span></li>
+                <li><span>Повышением в должности, наймом и избранием в члены Советов Директоров и исполнительных комитетов; <br/> </span>
+                </li>
+                <li><span>Содействием в поиске и оценке сделок по слиянию и поглощению; <br/> </span></li>
+                <li><span>Управлением различными финансовыми операциями, включая обеспечение заемными средствами, рефинансирование/реструктурирование существующего долга, увеличение собственного капитала и контроль за процессом вывода копаний на первичное публичное размещение акций (IPO), стратегические продажи или другие типы потенциальных сделок по выходу из бизнеса; </span><span> </span>
+                </li>
+                <li><span>Наймом международных экспертов для оказания помощи в принятии критически важных решений для развития бизнеса, таких как, например, оценка оптимального местоположения  для расширения бизнеса и т.д.</span><span> </span>
+                </li>
+            </ul>
+            <p><span>Широкий круг партнеров во всем мире, позволяет CONCORD в кратчайшие сроки способствовать росту компаний составляющих портфель.  </span>
+            </p>
+            <p><span><br/> </span></p>
+
+
+        </div>
+    </section>
+
+
+    <section class="section"
+
+             data-tooltip="Проектное финансирование"
+             data-anchor="zpifpf">
+
+        <div class="container">
+
+
+            <p><span>Финансовая состоятельность одна из компонент стабильно развивающегося бизнеса. Основным направлением группы в сегменте "Финансы" является проектное финансирование (одно из приоритетных и и быстро развивающихся направлений) как собственных проектов, так и проектов партнеров.</span><span>   </span><span>  </span>
+            </p>
+            <p><span>Проектное финансирование- предоставление целевых займов на реализацию инвестиционных проектов, позволяющее использовать различные сочетания стандартных банковских инструментов и услуг.</span><span>   </span><span>  </span>
+            </p>
+            <p>
+                <span>Преимущества проектного финансирования в группе компаний CONCORD:</span><span>   </span><span>  </span>
+            </p>
+            <ul>
+                <li><span>расширение действующего бизнеса / диверсификация направлений деятельности.    </span></li>
+                <li><span>Возможность привлечения средств при отсутствии действующего бизнеса, генерирующего денежный поток, достаточный для обслуживания ссудной задолженности    </span>
+                </li>
+                <li><span>Разделение финансовых потоков по действующему и проектному бизнесу, так как, как правило, проекты реализуются специальной проектной компанией    </span>
+                </li>
+                <li><span>Возможность привлечение ресурсов на более длительные сроки по сравнению со стандартным коммерческим кредитованием</span><span>   </span><span>  </span>
+                </li>
+                <li><span>Индивидуальный подход (т. е. структура сделки и условия ее финансирования зависят от особенностей конкретного проекта)    </span>
+                </li>
+                <li><span>Возможность привлечения средств без предоставления «жесткого» обеспечения для покрытия ссудной задолженности    </span>
+                </li>
+                <li><span>Наличие «льготного периода» до начала эксплуатационной фазы проекта и гибкий график погашения, зависящий от хода реализации проекта    </span>
+                </li>
+                <li><span>Возможность поэтапного вложения собственных средств в проект и использование в качестве обеспечения активов, создаваемых / приобретаемых в ходе проекта    </span>
+                </li>
+            </ul>
+            <p>Начиная с 2008 года компании входящие в группу принимали участие в реализации более 20 проектов в
+                различных отраслях экономики, таких как: легкая промышленность, производство стройматериалов, ТЭК
+                (строительство и эксплуатация электростанций), сфера услуг (гостиничный бизнес,
+                спортивно-развлекательные и досуговые услуги), строительство коммерческой недвижимости, строительство
+                жилой недвижимости (городской и загородной), другие отрасли. </p>
+            <p><span> </span></p>
+
+
+        </div>
+    </section>
+
+
+
+</div>
+
+<div class="mobile-design2-page">
+    <div class="h1">
+    Финансы
+    </div>
+
+    <div class="infograph"></div>
+</div>
+
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="copyright">© 2016 concord</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="counters"></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- scripts -->
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="assets/template/js/lib/scrolloverflow.min.js"></script>
+<script src="assets/template/js/lib/jquery.fullpage.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.5.5/jquery.slicknav.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+<script src="assets/template/js/lib/jquery.fancybox.js"></script>
+<script src="assets/template/js/lib/jquery.standart_load.js"></script>
+<script src="assets/template/js/lib/jquery.standart_window.js"></script>
+<script src="assets/template/js/app/_common.js?ver=1.0.0"></script>
+<!-- /scripts -->
+
+</body>
+</html>
+
+
+

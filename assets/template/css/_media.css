@@ -621,6 +621,18 @@
     .section-mobile{
         display: block!important;
     }
+
+    /*mobile-design2 page*/
+
+
+    .mobile-design2 #fullpage{
+        display: none;
+    }
+
+    .mobile-design2 .mobile-design2-page{
+        display: block;
+        margin-top: 106px;
+    }
 }
 
 
