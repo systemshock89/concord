@@ -622,8 +622,11 @@
         display: block!important;
     }
 
-    /*mobile-design2 page*/
+    /*mobile-design2 page (finance)*/
+    .mobile-design2{
+        overflow:auto!important;
 
+    }
 
     .mobile-design2 #fullpage{
         display: none;
@@ -632,6 +635,20 @@
     .mobile-design2 .mobile-design2-page{
         display: block;
         margin-top: 106px;
+    }
+
+    .mobile-design2 .header-mobile .logo{
+        display: none;
+    }
+
+    .mobile-design2 .mobile-design2-header-title{
+        display: inline-block;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'InterstateLigh';
+        text-decoration: none;
+        line-height: 31px;
+        padding: 9px 0 15px 25px;
     }
 }
 

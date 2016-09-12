@@ -478,6 +478,25 @@ $(function () {
     });
     /* /Index Owl Slider */
 
+
+    /* FAQ MINI */
+    $('.mobile-sections-list .item').click(function(e) {
+
+        var faq_mini_item_this = $(this);
+        e.preventDefault();
+
+        if ( !faq_mini_item_this.hasClass('selected') ){
+            faq_mini_item_this.find('.answer').slideToggle();
+            faq_mini_item_this.toggleClass('selected');
+        } else {
+            faq_mini_item_this.find('.answer').slideUp(function() {
+                faq_mini_item_this.toggleClass('selected');
+            });
+        }
+    });
+    /* /FAQ MINI */
+
+
 }); // END READY
 
 

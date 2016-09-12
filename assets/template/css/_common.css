@@ -1592,6 +1592,101 @@ section.section .slide .mobile-footer{
 /*---------/ZAKUPKI PAGE------------*/
 
 
+/*---------FINANCE PAGE------------*/
+/*mobile ver*/
+.mobile-design2-page,
+.mobile-design2-header-title{
+    display: none;
+}
+
+.mobile-design2-page .h1{
+    text-transform: uppercase;
+}
+
+.mobile-design2-page .h1 .ico{
+    max-width: 29px;
+    max-height: 23px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.mobile-design2-page .h1 span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+    font-family: 'InterstateLigh';
+}
+
+.mobile-design2-page .infograph{
+    margin: 15px 0;
+}
+
+.mobile-sections-list {
+    margin-top: 30px;
+}
+
+.mobile-sections-list .item{
+    margin-bottom: 5px;
+}
+
+.mobile-sections-list .item .question a{
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    font-family: 'InterstateLigh';
+    color: #000;
+    position: relative;
+    padding-left: 30px;
+}
+
+.mobile-sections-list .item .question a:before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 11px;
+    left: 8px;
+}
+
+.mobile-sections-list .item.selected .question a span{
+    border-bottom: 1px dashed #000;
+}
+
+.mobile-sections-list .item .answer{
+    display: none;
+    margin:15px 0;
+}
+
+.mobile-design2-page .footer-mini{
+    border-top: 2px solid #e1e1e1;
+    margin-top: 27px;
+}
+
+.mobile-design2-page .footer-mini-link{
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-family: 'InterstateLigh';
+    position: relative;
+    padding: 27px 0 20px 0;
+}
+
+.mobile-design2-page .footer-mini-link:before {
+    content: url('../img/arrow4.png');
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -30px;
+}
+/*---------/FINANCE PAGE------------*/
+
+
 /*---------/OTHER PAGES------------*/
 .president-container .h1{
     margin-top: 20px;
@@ -2482,10 +2577,6 @@ a.fancybox-thumb:hover .img-container:before {
 .search-form .btn:hover{
     -webkit-transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out, opacity 0.1s ease-in-out, color 0.1s ease-in-out;
     transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out, opacity 0.1s ease-in-out,  color 0.1s ease-in-out;
-}
-
-.mobile-design2-page{
-    display: none;
 }
 /*---------/OTHER STYLES------------*/
 
