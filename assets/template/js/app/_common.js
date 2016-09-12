@@ -479,7 +479,7 @@ $(function () {
     /* /Index Owl Slider */
 
 
-    /* FAQ MINI */
+    /* mobile-sections-list */
     $('.mobile-sections-list .item').click(function(e) {
 
         var faq_mini_item_this = $(this);
@@ -494,7 +494,7 @@ $(function () {
             });
         }
     });
-    /* /FAQ MINI */
+    /* /mobile-sections-list */
 
 
 }); // END READY
