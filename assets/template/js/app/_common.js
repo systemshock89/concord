@@ -497,6 +497,15 @@ $(function () {
     /* /mobile-sections-list */
 
 
+    //клик по заголовку
+    $('.mobile-design2-page .h1').click(function(e) {
+
+        e.preventDefault();
+        $('.razdel_mini_descr_hidden').slideToggle();
+
+    });
+
+
 }); // END READY
 
 

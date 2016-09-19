@@ -1684,6 +1684,10 @@ section.section .slide .mobile-footer{
     left: 50%;
     margin-left: -30px;
 }
+
+.razdel_mini_descr_hidden{
+    display: none;
+}
 /*---------/FINANCE PAGE------------*/
 
 
