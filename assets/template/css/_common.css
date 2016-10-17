@@ -329,8 +329,8 @@ header:before {
 header .header-part1 .logo{
     float: left;
     text-decoration: none;
-    padding-top: 37px;
-    padding-bottom: 27px;
+    padding-top: 31px;
+    padding-bottom: 29px;
 }
 
 header .header-part1 .logo .text{
@@ -342,8 +342,8 @@ header .header-part1 .logo .text{
 }
 
 header .header-part1 .logo img{
-    max-width: 194px;
-    max-height: 23px;
+    /*max-width: 194px;*/
+    max-height: 44px;
 }
 /*---------/HEADER------------*/
 
